@@ -4,7 +4,7 @@ This document outlines how to propose a change to our Chocolate Rating predictor
 
 ### Prerequisites
 
-Before making a pull request for your proposed changes, please file an issue and confirm that someone from the team agrees that it's a valid problem. When proposing a bug fix, please illustrate the bug via a minimum reproducible example: [MRE]([https://www.tidyverse.org/help/#reprex](https://stackoverflow.com/help/minimal-reproducible-example)). Furthermore, some of the guidelines to follow in your issue are as follows:
+Before making a pull request for your proposed changes, please file an issue and confirm that someone from the team agrees that it's a valid problem. When proposing a bug fix, please illustrate the bug via a minimum reproducible example: [MRE](https://stackoverflow.com/help/minimal-reproducible-example). Furthermore, some of the guidelines to follow in your issue are as follows:
 
 - Please be succinct and communicate your concerns without being superfluous.
 - For contributions, explain how your proposal is an improvement.
