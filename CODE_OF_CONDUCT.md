@@ -13,7 +13,13 @@ Upholding the integrity and responsibility of this project requires high standar
 -  Supportive, encouraging and open-minded attitude towards diverging opinions 
 -  Amicable and respectful communication in all mediums
 
-Examples of unacceptable behavior includes and not limited to: -Usage of threatening or harassingc ommunication -Intimidation or resorting to physical violence -Cheating or conducting plagiarism of any form -Releasing sensitive and private information of other individuals (bank information, home address, etc.) -Usage of sexual, violent, or other inappropriate content in all forms of communications both in personal and virtual settings -Violating UBC's Student Code of Conduct
+Examples of unacceptable behavior includes and not limited to: 
+-  Usage of threatening or harassing communication 
+-  Intimidation or resorting to physical violence 
+-  Cheating or conducting plagiarism of any form 
+-  Releasing sensitive and private information of other individuals (bank information, home address, etc.) 
+-  Usage of sexual, violent, or other inappropriate content in all forms of communications both in personal and virtual settings 
+-  Violating UBC's Student Code of Conduct
 
 ### Dealing with Unacceptable Behavior
 
