@@ -1,0 +1,649 @@
+REF,Company_(Manufacturer),Company_Location,Review_Date,Country_of_Bean_Origin,Specific_Bean_Origin_or_Bar_Name,Cocoa_Percent,Ingredients,Most_Memorable_Characteristics,Rating
+2566,Taylor Made,U.S.A.,2021,Haiti,"Haiti, batch 2020SEP",67,"3- B,S,C","earthy, fatty, gritty",2.75
+1462,De Mendes,Brazil,2015,Brazil,"Selvagem, Jari",65,"3- B,S,C","one dimensional, brownie",3.5
+2060,Guido Castagna,Italy,2018,Madagascar,Madagascar,70,"4- B,S,C,L","earthy, chemical or burnt note",2.75
+2494,Odyssey,U.S.A.,2020,Uganda,Bundibugyo,70,"2- B,S","dominant hazelnut, fudge",3.25
+1438,Original Beans (Felchlin),Switzerland,2014,Papua New Guinea,Papua Kerafat,68,"3- B,S,C","fatty, dates, musty",2.75
+943,StRita Supreme,U.S.A.,2012,Philippines,"Samar, East Visayas region",70,"4- B,S,C,V","dry, sweet, vanilla(n)",2.5
+2294,Petite Patrie,Canada,2019,Peru,"Ucayali, batch PR-17",70,"4- B,S,C,L","off aroma, anise, dried fruit",3.25
+841,Menakao (aka Cinagra),Madagascar,2012,Madagascar,Madagascar,72,"4- B,S,C,L","uneven, smokey, hammy",2.5
+2498,Odyssey,U.S.A.,2020,Colombia,Arhuaca,70,"2- B,S","walnut, tobacco, grassy",3.25
+2724,Eldora,U.S.A.,2022,Tanzania,"Kokoa Kamili, 2020 harvest, batch 1574",70,"3- B,S,C","heavy roast, choco, coffee-like",3.5
+2526,Cultura,U.S.A.,2020,Guatemala,"Lachua, Cacao Verapaz, 2018 harvest, batch 20092",70,"3- B,S,C","sandy, sweet, basic cocoa base",3.25
+99,Pralus,France,2006,Blend,"Djakarta, Java and Ghana",75,"4- B,S,C,L","tart, fruit, cocoa",3.5
+1688,Cacao de Origen,Venezuela,2015,Venezuela,Chuao,77,"2- B,S","assertive, fruity, acidic",3.5
+1712,Hogarth,New Zealand,2016,Dominican Republic,Conacado,75,"3- B,S,C","intense, bitter, coffee",3.25
+1239,Heirloom Cacao Preservation (Guittard),U.S.A.,2014,Bolivia,"Alto Beni, Upper Rio Beni, 2014",67,"3- B,S,C",full flavor spectrum,3.5
+2092,Amedei,Italy,2018,Blend,Nine,75,"4- B,S,C,V","sweet, delicate, complex",3.5
+793,Spagnvola,U.S.A.,2012,Dominican Republic,AgroCriso Plantation,70,"4- B,S,C,V","oily, floral, dairy",3.0
+523,Cacao Sampaka,Spain,2010,Ecuador,Ecuador,71,"4- B,S,C,L","creamy, mild spice, hazelnut",3.75
+1117,Fresco,U.S.A.,2013,Peru,"San Martin, Bellavista Coop, #226, DR, MC",70,"3- B,S,C",cocoa and fresh grapes,3.75
+1193,Szanto Tibor,Hungary,2013,Nicaragua,Cacao Blanco,70,"3- B,S,C","sour milk, hot cocoa",3.25
+2004,Uncouth,Canada,2017,Guatemala,Guatemala,75,"2- B,S","dry, coarse, sour",3.25
+1776,Forteza (Cortes),Puerto Rico,2016,Dominican Republic,Dominican Republic,70,"6-B,S,C,V,L,Sa","strong vanilla, earthy, nutty",2.75
+1379,Ara,France,2014,Ecuador,Equateur,75,"3- B,S,C","bitter, floral, leather",2.75
+2254,La Feverie (Hasnaa),France,2018,Guatemala,"Asochivite, 2017 harvest",70,"2- B,S","dry, melon, cocoa",3.5
+1239,Palette de Bine,Canada,2014,Bolivia,"Alto Beni, Palos Blancos",72,"2- B,S","vinegar, sour",2.75
+296,Hotel Chocolat (Coppeneur),U.K.,2008,Uganda,Uganda,80,,"charred, espresso",2.5
+2056,Auro,Philippines,2018,Philippines,Davao,77,"4- B,S,V,L","sandy, vanilla",2.75
+1157,Sublime Origins,U.S.A.,2013,Belize,Moho Valley,78,"2- B,S","intense, rich, dark berry",3.25
+2474,Sweetness,Canada,2020,Mexico,Tabasco,74,"3- B,S,C","dried fig, earthy, dirty",3.0
+2614,Hemisphere,U.S.A.,2021,Ecuador,"Esmeraldas, Muisne Estate",70,"2- B,S","harsh, earthy, dirty",2.75
+817,Pacari,Ecuador,2012,Ecuador,"Ecuador, raw",85,"4- B,S,C,L","spice, mostly bitter",2.75
+1034,Dick Taylor,U.S.A.,2013,Ecuador,"Ecuador, Choc. Garage Exclusive",70,"2- B,S","oily, black pepper, roasty",3.25
+1069,Q Chocolate,Brazil,2013,Brazil,Brazil,55,"3- B,S,C","creamy, too sweet, sour",2.75
+761,Bonnat,France,2011,Jamaica,Jamaique,75,"3- B,S,C","oily, creamy, woody",3.25
+1466,Holy Cacao,Israel,2015,Venezuela,Mara,70,"4- B,S,C,L","muted, fatty, nutty",3.5
+1638,Britarev,Russia,2015,Ecuador,Ecuador,70,"2- B,S","powdery, floral, molasses",3.25
+1454,Chocablog,U.K.,2015,Ecuador,Ecuador,70,"3- B,S,C","floral, earthy",3.25
+661,Momotombo,Nicaragua,2011,Nicaragua,Mombacho,70,"2- B,S","unrefined, bright berry, sweet",2.75
+2112,Soeka,Netherlands,2018,Sulawesi,Sulawesi,66,"3- B,S*,C","nuts, fruit, cocoa",3.25
+2590,Black Sheep,U.S.A.,2021,Colombia,"Sierra Nevada, batch 92",72,"3- B,S,C","burnt caramel, cocoa, floral",3.25
+955,Baravelli's,Wales,2012,Costa Rica,single estate,80,"4- B,S,C,V","gritty, floral, vanilla",2.75
+717,Silvio Bessone,Italy,2011,Belize,Maya Belize,67,"4- B,S,C,Sa","fatty, cocoa, spicy",3.0
+2122,Franceschi,Venezuela,2018,Venezuela,"Chuao, batch 4, Lot DH17",85,"2- B,S","sl. dry, gritty, fruity, nuts",3.0
+308,Maglio,Italy,2008,Cuba,Cuba,70,"5- B,S,C,V,L","nutty, cooling sensation",3.25
+502,Cacao Atlanta,U.S.A.,2010,Dominican Republic,"Dominican Republic, ""Love Bar""",75,"2- B,S","oily, buttery, intense",2.5
+2122,Friis Holm,Denmark,2018,Nicaragua,"O'Payo, Wasalala Co-op",68,"3- B,S,C","unique flavor, floral-spice mix",3.5
+451,Pralus,France,2009,Venezuela,Cuyagua,75,"4- B,S,C,L","creamy, burnt,ashey, lemon",2.0
+24,Original Hawaiin Chocolate Factory,U.S.A.,2006,U.S.A.,"Hawai'i Island, Kona Estate, Hualalai Mtn",60,"5- B,S,C,V,L","muddy, pastey, sweet, vanilla",3.0
+2242,Soma,Canada,2018,Venezuela,"Choroni, Aragua, Finca Torres Farm",70,"3- B,S,C","nutty, cocoa",4.0
+2574,Dancing Lion,U.S.A.,2021,India,Anamalai,72,"4- B,S,C,L","fresh fruit, sour cherry, roasty",3.0
+170,Dean and Deluca (Belcolade),U.S.A.,2007,Madagascar,Madagascar,66,"4- B,S,C,V","sandy, cloying, rich cocoa",2.5
+805,Tejas,U.S.A.,2012,Dominican Republic,Presidio,70,"4- B,S,C,V","molasses, caramel",3.5
+1824,Zart Pralinen,Austria,2016,Ecuador,UNOCACE,70,"3- B,S,C","sticky, off notes of rubber",2.75
+2498,Odyssey,U.S.A.,2020,Vietnam,Ben Tre,70,"2- B,S","complex,cranberry,malt, vanilla",3.75
+2350,Moka Origins,U.S.A.,2019,Sierra Leone,Gola Rainforest,72,"3- B,S,C","roasty, honey, sweet",3.0
+1546,Izard,U.S.A.,2015,Dominican Republic,"Elvesia P., Batch 32",70,"2- B,S","intense, molasses, fruit",2.75
+636,Beschle (Felchlin),Switzerland,2011,Ecuador,Ecuador,72,"3- B,S,C","creamy, nutty, cocoa",4.0
+2546,Dandelion,U.S.A.,2021,Brazil,"Vale Potumuju, 2019 h., batch 1",70,"2- B,S",distinct choco and graham,4.0
+2322,Foundry,New Zealand,2019,Bolivia,"Alto Beni, 2017 h.",70,"2- B,S","honey, mild floral, mild off",3.0
+523,Cacao Sampaka,Spain,2010,Papua New Guinea,Papua,71,"4- B,S,C,L","creamy, mild spice, cocoa",4.0
+1518,Brazen,U.S.A.,2015,Belize,Maya Mountain,80,"3- B,S,C","mild smoke, raisins, coffee",3.25
+1450,Emily's,Japan,2015,Venezuela,Patanemo,79,"3- B,S,C","coarse, woody, roasty",3.0
+903,Escazu,U.S.A.,2012,Venezuela,Rio Caribe,70,"4- B,S,C,V","nutty, ginger, off notes",2.75
+24,Neuhaus (Callebaut),Belgium,2006,Venezuela,Ocumare,71,"5- B,S,C,V,L","pastey, complex, coffee,vanilla",3.0
+2318,Foundry,New Zealand,2019,Papua New Guinea,"Kulkul P., Karkar Island, 2018 h., batch PK019",70,"2- B,S","off, tropical, vegetal, rubbery",3.0
+2720,Friis Holm,Denmark,2022,Madagascar,"Bejofo, Akesson, slow dry",64,"3- B,S,C","pungent, sour cherry",3.5
+1454,Peppalo,U.S.A.,2015,Dominican Republic,Dominican Republic,82,"3- B,S,C","coarse, earthy, sweet",3.0
+2162,Ninth (9th) & Larkin,U.S.A.,2018,Vietnam,"Ben Tre, batch VNBT186",72,"3- B,S,C","spicy, vanilla, sweet",2.75
+241,DeVries,U.S.A.,2008,Bolivia,Bolivian,80,"2- B,S","intense fruit, bitter ending",2.75
+841,Noir d' Ebine,U.S.A.,2012,Ecuador,Ecuador,70,,"sweet, spicy, cocoa",3.0
+2278,Cacao de Origen,Venezuela,2019,Venezuela,Canoabo,70,"2- B,S","raspberry, dirty, sour",3.0
+2032,Raaka,U.S.A.,2017,Haiti,"Pisa, unroasted",70,"3- B,S,C",green,3.25
+1864,Bellflower,U.S.A.,2016,Dominican Republic,"Oko Caribe, Duarte P.",70,"2- B,S","caramel, mild dried fruit",3.5
+175,Askinosie,U.S.A.,2007,Ecuador,San Jose del Tambo,70,"2- B,S","smooth, astringent, cocoa",3.0
+907,Treehouse aka Indaphoria,U.S.A.,2012,Dominican Republic,"Conacado, Manifesto",70,"3- B,S*,C","sandy, strawberry, coconut",2.75
+983,Bar Au Chocolat,U.S.A.,2012,Madagascar,Sambirano,70,"2- B,S","raspberry, mild sour",3.75
+785,Taza,U.S.A.,2011,Bolivia,Alto Beni,87,"3- B,S,C","grainy, blueberries, bitter",3.25
+2214,Milton,Japan,2018,Vietnam,Ben Tre,70,"2- B,S","cocounut, late sour",3.25
+1732,Altus aka Cao Artisan,U.S.A.,2016,Ecuador,Gruppo Salinas,60,"3- B,S,C","sandy, nutty, earthy, roasty",2.75
+1940,Madre,U.S.A.,2017,Solomon Islands,Guadalcanal,73,"2- B,S","mild earthy, mild cocoa, nut",3.5
+1446,Dandelion,U.S.A.,2015,Belize,"Maya Mtn., Break Bar- Snark",70,"2- B,S","intense, roasty, coffee, raisin",3.0
+188,Scharffen Berger,U.S.A.,2007,Blend,Antilles (Trin/Gren/DR/Ven),75,"5- B,S,C,V,L","smooth,complex,cocoa base",3.0
+2466,Crow and Moss,U.S.A.,2020,Dominican Republic,"Zorzal, batch 40",70,"2- B,S","deep cherry, earthy, rubbery",3.25
+2382,Hazel Hill,U.S.A.,2019,Peru,Maranon,65,"3- B,S,C","pungent, chemical",2.75
+2270,Harris & James,U.K.,2019,Vietnam,"Ben Tre, batch 133",70,"3- B,S,C","sandy, brownie, coconut",3.25
+2672,Chaleur B,Canada,2021,Madagascar,"Ambanja, Sambirano Valley",70,"3- B,S,C","cherry, sour milk, brownie",3.0
+1430,Maverick,U.S.A.,2014,Peru,"Morropon, Norandiono Coop, Piura",63,"3- B,S,C","sweet, cherry, cream, raisin",3.5
+1808,Cao,U.S.A.,2016,Bolivia,Bolivia,75,"3- B,S,C","sandy, bold, cherry",3.0
+999,Bahen & Co.,Australia,2012,Brazil,Bahia,70,"2- B,S","chalky, intense, chemical",2.5
+2386,Dandelion,U.S.A.,2019,Vietnam,"Ben Tre, 2018 Harvest",70,"2- B,S","green apple, sticky",3.5
+2068,Arete,U.S.A.,2018,Trinidad,Ramnath E.,70,"2- B,S","nuts, dried fruit, short",3.0
+2202,FJAK,Norway,2018,Madagascar,Bejofo,70,"3- B,S,C","molasses, sour notes",3.0
+737,Idilio (Felchlin),Switzerland,2011,Venezuela,"Ocumare, H. Cata, w/ nibs",72,"3- B,S,C","creamy, nutty, muted",3.5
+1936,Soul,Canada,2017,Papua New Guinea,Papua New Guinea,77,"2- B,S","sandy, smokey, fruit, sour",3.25
+757,Valrhona,France,2011,Venezuela,"Porcelana, Pedegral",64,"5- B,S,C,V,L","creamy, honey,peanut butter",4.0
+129,Domori,Italy,2007,Venezuela,"Ocumare 61, Puertomar",75,"2- B,S","sticky, smoke, ham, earthy",3.25
+615,S.A.I.D.,Italy,2010,Blend,100 percent,100,,"sticky, intense, very bitter",1.5
+1133,Altus aka Cao Artisan,U.S.A.,2013,Peru,"Peru, batch 148",60,"4- B,S,C,L","gritty, too sweet, fruit",3.25
+256,Black Mountain,U.S.A.,2008,Venezuela,Carenero Superior,70,"3- B,S,C","sweet grass, muted spice",2.75
+300,Cacao Barry,France,2008,Tanzania,Tanzania,75,"5- B,S,C,V,L","dry, flat flavor, astringent",2.0
+1852,K'ul,U.S.A.,2016,Brazil,"Bahia, Fazenda Camboa",70,"4- B,S,C,L","creamy, mild flavors",3.75
+1498,Ambrosia,Canada,2015,Venezuela,Venezuela,70,"2- B,S","sandy, roasty, nutty",3.25
+180,Taza,U.S.A.,2007,Dominican Republic,"Dark, Stone Ground",70,"3- B,S,C","sandy, sour banana, sweet",3.0
+1007,Manoa,U.S.A.,2012,Peru,"Piura, batch 173",72,"3- B,S,C","banana, menthol, medicinal",3.0
+1458,Violet Sky,U.S.A.,2015,Madagascar,Sambirano Valley,77,"2- B,S","intense, tart, sour, raisin",2.75
+1654,Montecristi,Ecuador,2015,Ecuador,Manabi,70,,"spicy, smoke, sour",3.25
+1824,Zart Pralinen,Austria,2016,Tanzania,"Kakao Kamili, Kilombero Valley",85,"3- B,S,C","melon, mild tart, bitter, fatty",3.0
+2048,Zoto (Chocolatoa),Belgium,2018,Nicaragua,"El Castillero, batch ca1705, 3 turns",70,"3- B,S,C","large grits, sweet, dried fruit",3.75
+1251,Cello,U.S.A.,2014,Bolivia,Bolivia,70,"3- B,S,C","creamy, woody, slight cherry",3.0
+1736,Creo,U.S.A.,2016,Ecuador,"""heirloom"", Arriba Nacional",85,"3- B,S,C","oily, mild bitter, nutty, fruit",3.25
+1486,Cloudforest,U.S.A.,2015,Ecuador,"Camino Verde P., Balao, Guayas, 2014, batch 1",73,"2- B,S","creamy, floral, bourbon",3.5
+1399,Palette de Bine,Canada,2014,Blend,Duo- Gran Couva & Camino Verde,75,"2- B,S","intense floral, slight woody",3.5
+1117,Videri,U.S.A.,2013,Blend,"Dark, Central and S. America",90,"3- B,S,C","mellow fruit, tart, mild bitter",3.75
+829,Tejas,U.S.A.,2012,Bolivia,San Jose,70,"3- B,S,C","candy,peanut butter,caramel",2.75
+607,Soma,Canada,2010,Blend,"Black Science Blend 1, DR, Ecuador, Peru",70,"3- B,S,C","complex, nut, dried fruit, earth",3.75
+1133,Naive,Lithuania,2013,Peru,"Maranon Canyon, Fortunato No. 4",78,"4- B,S,C,L","orange, floral, caramel",3.75
+1788,Sirene,Canada,2016,Bolivia,Wild Bolivia,73,"2- B,S","sticky, raisins, fudgey",3.5
+2518,Or Dubh,U.S.A.,2020,Tanzania,"Kokoa Kamili, Kilombero Valley, 2018 H.",70,"2- B,S","sweet edge, dried fruit, lemon",3.5
+2598,Maribea,U.S.A.,2021,Bolivia,"Alto Beni, Walikewa",72,"3- B,S,C","floral, earthy, acidic, harsh",2.75
+93,Pierre Marcolini,Belgium,2006,Indonesia,"Kendem Lembu, Java",72,"5- B,S,C,V,L","red fruit, smokey, sour",3.0
+919,Chocolate Tree,Scotland,2012,Ecuador,Ecuador,82,"3- B,S,C","sandy, fruity, burnt",2.5
+2638,Soma,Canada,2021,Madagascar,"Bejofo, Sambirano V., Akesson, b. 6116-BEJ210324",70,"3- B,S,C","red fruit, peanut butter, cocoa",3.5
+1522,Manoa,U.S.A.,2015,Costa Rica,Coto Brus,72,"3- B,S,C","dried fruit, balanced, cocoa",3.75
+2530,Triangle Roasters,U.S.A.,2020,Guatemala,Guatemala,70,"2- B,S","bright fruit, heavy roast, smooth",3.75
+1748,Rogue,U.S.A.,2016,Honduras,"La Masica, Batch 1, FHIA Research Center",75,"2- B,S","robust, tart, roasty",3.75
+1666,Damson,U.K.,2015,Grenada,Crayfish Bay aka Non Pariel Estate,70,"3- B,S,C","off, pungent, intense",2.25
+927,L.A. Burdick (Felchlin),U.S.A.,2012,Venezuela,Chuao,68,"5- B,S,C,V,L","berry, rich cocoa dominates",3.75
+1201,Habitual,Canada,2014,Blend,Africa meets Latina,70,"3- B,S,C","fatty, nutty, earthy",3.0
+647,Zotter,Austria,2011,Peru,Peru,70,"4- B,S*,C,Sa","creamy, fatty, mild nutty",3.75
+1658,Seaforth,U.K.,2015,Grenada,Grenada,70,"2- B,S","off, sweet, orange, rubber",2.75
+1153,Castronovo,U.S.A.,2013,Venezuela,"Guaniamo, batch 173",72,"3- B,S,C",mild metallic and spice,3.0
+2486,Finnia,Canada,2020,Blend,"Ucayali (Peru), Papua New G., Tabasco (Mexico)",70,"3- B,S,C","fruit, cocoa, fatty",3.25
+2470,Sweetness,Canada,2020,Peru,Ucayali,68,"3- B,S,C","burnt black licorice, intense",3.25
+129,Valrhona,France,2007,Madagascar,Manjari,64,"5- B,S,C,V,L","creamy, blueberry, raspberry",4.0
+1057,Sprungli (Felchlin),Switzerland,2013,Bolivia,Alto Beni,70,"4- B,S,C,L","fatty, mild fruit, off note",3.0
+1680,A. Morin,France,2015,Togo,Akata,70,"4- B,S,C,L","mild profile, chocolaty, spice",3.5
+1614,Sirene,Canada,2015,Guatemala,Lachua w/ cane sugar,73,"2- B,S","waxy, earthy, cocoa, roasty",3.0
+789,Tocoti,U.S.A.,2011,Dominican Republic,Dominican Republic,74,"3- B,S,C","pronounced fruit, sour",3.0
+1065,Hotel Chocolat (Coppeneur),U.K.,2013,Madagascar,"Somia Plantation, Akesson, 2012, Rabot",72,"4- B,S,C,L","nutty, mild coffee",3.0
+470,Amano,U.S.A.,2010,Dominican Republic,Dos Rios,70,"4- B,S,C,V","orange, cinamon",3.75
+2322,Foundry,New Zealand,2019,Ecuador,"Camino Verde, 2017 h., batch EC019",70,"2- B,S","floral, orange, cocoa",3.75
+1530,Chocolate Makers,Netherlands,2015,Dominican Republic,Tres Hombres,75,"3- B,S,C","earthy, coffee, mild, tang",3.25
+24,Michel Cluizel,France,2006,Blend,Carre Amer,60,"4- B,S,C,V","sweet, crisp nibs",2.0
+709,Valrhona,France,2011,Blend,Caraque,56,"5- B,S,C,V,L","intense sweet, nut, orange",3.25
+248,Kallari (Ecuatoriana),Ecuador,2008,Ecuador,Diego 60hr/ W.F. blend prototype,85,"4- B,S,C,V","spicy, mild bitter",3.0
+661,Askinosie,U.S.A.,2011,Honduras,Cortes,70,"2- B,S","grapes, woody, roasty",3.75
+2590,Black Sheep,U.S.A.,2021,Belize,"Maya Mountain, batch 98",72,"3- B,S,C",honey with subtle tobacco,3.25
+1562,Letterpress,U.S.A.,2015,Trinidad,"San Juan Estate, Gran Couva",70,"2- B,S","cocoa, spice, fruit",3.5
+1243,Heirloom Cacao Preservation (Guittard),U.S.A.,2014,U.S.A.,"O'ahu Island, Maunawili, Agri Research C., 2014",67,"3- B,S,C","spicy, intense, fades fast",3.75
+2450,Exquisito,U.S.A.,2019,Peru,"Maranon, Fortunato",73,"3- B,S,C",dominated by heavy roast,3.0
+292,Compania de Chocolate (Salgado),Argentina,2008,Bolivia,Moxos,72,,"dry, coffee, sour",3.25
+2084,Cacaodada,South Korea,2018,Ecuador,Ecuador,70,,"floral, rum",3.5
+1065,Hotel Chocolat (Coppeneur),U.K.,2013,Ecuador,"Los Rios, H. Iara",90,"2- B,S","oily, leathery, intense bitter",3.0
+1876,Heilemann,Germany,2016,Peru,Peru,64,"3- B,S,L","powdery, vanilla, artificial",2.75
+2282,Ritual,U.S.A.,2019,Nicaragua,"La Colonia, Enliven Cacao",70,"2- B,S","complex, honey, fruit, nut",3.5
+1768,Chocolate Con Amor,U.S.A.,2016,Nicaragua,Nicaragua,80,"2- B,S","nutty, roasty, bitter",2.75
+2036,Ruket,Italy,2018,Nicaragua,"Nugu, lot 02N",70,"3- B,S,C","complex, coarse, astringent",3.5
+2602,Dandelion,U.S.A.,2021,India,"Anamalai, 2019 H., batch 1, nutmeg fermentation",70,"2- B,S","orange soda, sour",3.25
+1948,Xocolla,U.S.A.,2017,Madagascar,"Sambirano, batch 170102",70,"2- B,S","sour milk, molasses, sweet",2.75
+2000,Fresh Coast,U.S.A.,2017,Brazil,"Fazenda Camboa, Bahia",70,"2- B,S","creamy, fragrant",3.5
+1161,Solstice,U.S.A.,2013,Bolivia,Bolivia,70,"2- B,S","intense, leathery, cocoa",3.25
+2134,Chocolates by Josh (Box Chocolate),U.S.A.,2018,Dominican Republic,Zorzal,72,"3- B,S,C","spicy, banana",3.25
+2542,Brasstown,U.S.A.,2021,Tanzania,Kokoa Kamili,62,"3- B,S,C","very sweet, melon, caramel",3.0
+93,Guittard,U.S.A.,2006,Blend,Tsaranta,61,"5- B,S,C,V,L","sweet, rich cocoa, mild citrus",3.5
+1880,Dormouse,U.K.,2016,Grenada,Non Pariel Estate,75,"3- B,S*,C","licorice, molasses, rubber",2.75
+431,Holy Cacao,Israel,2009,Ivory Coast,Ivory Coast,70,"2- B,S","dry, sour, cheesey, off",2.5
+1470,Vicuna,U.S.A.,2015,Bolivia,Palos Blancos,70,"2- B,S","peanut butter, coffee, mint",3.25
+56,Scharffen Berger,U.S.A.,2006,Jamaica,Jamaica a l'ancienne,70,"5- B,S,C,V,L","fresh nibs,chocolate base off",2.0
+2630,CAR Artisan,U.S.A.,2021,Peru,"Ucayali, batch 12",70,"3- B,S,C","intense, cooked black licorice",3.25
+2286,Krak,Netherlands,2019,Colombia,H. Betulia B6,70,"2- B,S","light color,",3.0
+2626,CAR Artisan,U.S.A.,2021,Tanzania,"Kokoa Kamili, batch 9",70,"3- B,S,C","unusually tart, nutty",3.25
+1450,Mast Brothers,U.S.A.,2015,Guatemala,Guatemala,76,"2- B,S","mild bitter, citrus, intense",3.0
+1594,Soma,Canada,2015,Venezuela,CSB Chama,70,"3- B,S,C","roasted nuts, dried fruit",3.5
+516,Duffy's,U.K.,2010,Panama,Panama,70,"3- B,S,C",caramel and cocoa,3.5
+464,Scharffen Berger,U.S.A.,2010,Grenada,Camahogne,68,"5- B,S,C,V,L","smooth, grassy, minty",3.5
+2752,Ducrey,U.S.A.,2022,Haiti,Pisa,70,"2- B,S","rich brownie, roasty, coffee",3.25
+2118,Primo Botanica,U.S.A.,2018,Tanzania,"Kokoa Kamili, 2018 Harvest",75,"2- B,S*","sour palm, rich cocoa, fruit",3.25
+123,Bonnat,France,2007,Ecuador,Equateur,75,"3- B,S,C","dry, floral, bitter",2.5
+2290,Bankston,U.S.A.,2019,Belize,Belize,72,"3- B,S,C","gritty, fatty, sour, off",2.5
+2012,Wellington Chocolate Factory,New Zealand,2017,Samoa,Samoa,77,"2- B,S","earthy, roasty",3.0
+1992,Palette de Bine,Canada,2017,Haiti,Pisa,70,"2- B,S","sticky, bold, nutty, fig",3.5
+1972,Landmark (Amano),U.S.A.,2017,Bolivia,"Tranquilidad, Itinez Province",74,"3- B,S,C","well balanced, melon",3.75
+2036,Omnom,Iceland,2018,Nicaragua,Nicaragua,73,"3- B,S,C","intense spice, coarse",3.0
+661,Dick Taylor,U.S.A.,2011,Madagascar,Sambirano,80,"2- B,S","sandy, flat, hint of berry",2.75
+2250,Bonnat,France,2018,Blend,"El Rosario, Xoconuzco, Cusco, Sambirano",75,"3- B,S,C","creamy, rich, complex",4.0
+1510,Valrhona,France,2015,Peru,"Piura, Illanka, Quemazon",63,"5- B,S,C,V,L","intense, dark berry, grapes",4.0
+1904,Arete,U.S.A.,2016,Ecuador,Costa Esmeraldas,70,"3- B,S,C","chewy, mild floral",3.25
+1792,Spencer,Australia,2016,Ecuador,"Ecuador, lot E432314L",70,"3- B,S,C","floral, sandy",3.75
+2112,Mike & Becky,Belgium,2018,Belize,"San Jose, Toledo, 2017 harvest",70,"3- B,S,C","grape, cocoa",3.5
+1658,Seaforth,U.K.,2015,Dominican Republic,Dominican Republic,70,"2- B,S","rustic, vegetal, earthy",2.75
+1101,Castronovo,U.S.A.,2013,Bolivia,"Bolivia, batch 166",70,"3- B,S,C","sandy, tobacco, molasses",3.0
+1820,Soma,Canada,2016,Dominican Republic,"Oko Caribe, Duarte P., Collab w Chocosol",62,"3- B,S,C","creamy, sweet, deep choco",3.5
+801,Tejas,U.S.A.,2012,Blend,"Bayou Blend, Ecuador, Mad., PNG",70,"4- B,S,C,V","molasses, caramel, spice",3.0
+1019,A. Morin,France,2013,Peru,Chanchamayo Province,70,"4- B,S,C,L","cocoa,sour,intense tangerine",3.5
+1189,La Maison du Chocolat (Valrhona),France,2013,Ecuador,"Acarigua, w/ nibs",56,"4- B,S,C,L","sweet, nutty, cocoa",3.25
+2186,La Rifa,Mexico,2018,Mexico,"Xoconusco, Chiapas, Coop CASFA",70,"2- B,S","mild hammy, roasty, sour",3.0
+451,L.A. Burdick (Felchlin),U.S.A.,2009,Bolivia,Bolivian,68,"5- B,S,C,V,L","rich, spice, cheese",3.0
+761,Szanto Tibor,Hungary,2011,Venezuela,Crudo,70,"3- B,S,C","rustic, sugar dominates",3.0
+1046,Fruition,U.S.A.,2013,Dominican Republic,La Red,70,"3- B,S,C","dried fruit, intense",3.75
+395,Bonnat,France,2009,Mexico,"Xoconusco, cacao Real",75,"3- B,S,C","fatty, roasty, earthy",3.0
+1748,Heirloom Cacao Preservation (Fruition),U.S.A.,2016,Costa Rica,"Cota Brus, Terciopelo, 2015",74,"3- B,S,C","mostly earthy, mild dried fruit",3.5
+1864,"Smooth Chocolator, The",Australia,2016,Australia,Australia,67,"3- B,S,C","delicate, smooth, dairy",3.75
+1121,La Maison du Chocolat (Valrhona),France,2013,Blend,"Cuana, 2013, Africa, Carribean, C. Am.",74,"4- B,S,C,L","brownie, cocoa, sour, sweet",2.75
+2326,Taste Artisan,U.S.A.,2019,Peru,Amazonas,75,"3- B,S,C","blackberry, dirt, high roast",3.25
+975,Cravve,Australia,2012,Fiji,"Namau Village, N. Taileva P., batch a2812",67,"3- B,S,C","acidic, sweet, cucumber",3.25
+931,Nova Monda,Nicaragua,2012,Nicaragua,"La Patriota, cacao Indio, purple label",70,"2- B,S","woody, coffee,roasted cherry",3.0
+1860,Ritual,U.S.A.,2016,Ecuador,"Camino Verde P., Balao, 2015 harvest, batch8",75,"2- B,S","floral, bourbon, balanced",3.75
+213,Rogue,U.S.A.,2008,Dominican Republic,"Hispaniola, 2008",70,"2- B,S","nutty, earthy, mild off note",2.75
+2426,Qantu,Canada,2019,Peru,"Chunchu, Ayacucho, lot 208",70,"3- B,S,C","bold, nutty, floral, wine",3.75
+1514,Chocolarder,U.K.,2015,Dominican Republic,"Dominican Republic, batch 5",80,"2- B,S","spicy, earthy off notes",2.5
+959,Coppeneur,Germany,2012,Madagascar,Madagascar,70,"3- B,S,C","sandy, sweet, tart red berry",3.5
+2768,White Label aka Mutari,U.S.A.,2022,Colombia,"Chaparral, batch 12022",72,"3- B,S,C","hint of caramel, alcohol, vegetal",3.5
+445,La Maison du Chocolat (Valrhona),France,2009,Blend,Orinoco,60,"4- B,S,C,L","cocoa, caramel, sweet",3.75
+1251,Cello,U.S.A.,2014,Venezuela,Venezuela,70,"3- B,S,C","nutty, roasty, smokey",2.75
+2518,Xocolatl,U.S.A.,2020,Peru,"San Martin de Pangoa, batch 46",70,"2- B,S","burnt caramel, grapes",3.5
+654,Potomac,U.S.A.,2011,Costa Rica,"Upala, Batch 18",70,"2- B,S","fudgey, mild smoke",3.0
+987,Danta,Guatemala,2012,Guatemala,Los Ujuxtes,70,"2- B,S",spicy,3.75
+439,Chocovic,Spain,2009,Blend,Tarakan,75,"4- B,S,C,L","oily, grassy, minty",3.25
+2630,Cleveland Chocolate Company,U.S.A.,2021,Dominican Republic,Oko Caribe,70,"3- B,S,C","spice, earthy, honey, sour",3.5
+1700,twenty-four blackbirds,U.S.A.,2015,Dominican Republic,Oko Caribe,75,"2- B,S","spicy, sour, off note",2.75
+845,Marou,Vietnam,2012,Vietnam,Dong Nai,72,"3- B,S,C","roasty, coffee",3.5
+1824,Zart Pralinen,Austria,2016,Tanzania,"Kakao Kamili, Kilombero Valley",70,"3- B,S,C","smoke, tart, burnt cocoa",3.5
+1928,Arete,U.S.A.,2016,Dominican Republic,Elvesia,70,"2- B,S","dark berry, chocolatey",3.75
+600,Hotel Chocolat (Coppeneur),U.K.,2010,Venezuela,Chuao,70,"4- B,S,C,L","ashey, woody, bright red",2.75
+2020,Arete,U.S.A.,2017,India,Anamalai,70,"2- B,S","slight roasty, basic cocoa",3.5
+1271,Taza,U.S.A.,2014,Belize,Belize,68,"3- B,S,C","coarse, watering, sweet",3.0
+439,El Rey,Venezuela,2009,Venezuela,"Rio Caribe, Macuro",70,"5- B,S,C,V,L","sandy,bold,cherry,peanut butter",3.0
+2462,Piety and Desire,U.S.A.,2020,Tanzania,"Kokoa Kamili, Kilombero Valley, batch 304",70,"3- B,S,C","sweet, cream, cherry, rich",3.5
+2378,Hazel Hill,U.S.A.,2019,Dominican Republic,Oko Caribe,70,"3- B,S,C","earthy, dirty, dried fruit",3.5
+1732,Feitoria Cacao,Portugal,2016,Jamaica,Blue Mountain,76,"2- B,S","roasty, spicy, nutty",3.0
+387,Soma,Canada,2009,Madagascar,Madagascar,70,"3- B,S,C","subtle red berry, complex",3.75
+1650,Marou,Vietnam,2015,Vietnam,Ben Tre,68,"2- B,S","roasty, rich, coffee, nut",3.5
+1279,Manufaktura Czekolady,Poland,2014,Colombia,Kolumbia,85,"2- B,S","coarse, intense, nutty",3.5
+2430,Fossa,Singapore,2019,Madagascar,"Ottange Farm, Mava Plantation, Sambirano",70,"2- B,S","roasted nuts, citrus, creamy",3.5
+1482,Chocolarder,U.K.,2015,Peru,"Peru, batch C7",65,"2- B,S","flat, metallic, floral",2.5
+2382,Mindo,U.S.A.,2019,Ecuador,"Ecuador, lot# 181220",67,"3- B,S,C","sandy, harsh, floral",2.75
+1197,Habitual,Canada,2014,Dominican Republic,Dominican Republic,75,"3- B,S,C","chalky, berry, cocoa",3.25
+355,Artisan du Chocolat,U.K.,2009,Venezuela,"Ocumare, Venezuela",75,"3- B,S,C","oily, nutty, burnt, sour",2.5
+558,Coppeneur,Germany,2010,Venezuela,Ocumare 61,72,"3- B,S,C","oily, coffee",3.25
+370,Fresco,U.S.A.,2009,Jamaica,"Jamaica, #204, DR, SC",80,"3- B,S,C","slightly burnt, earthy",2.75
+1586,Caribeans,Costa Rica,2015,Costa Rica,Anselmo Paraiso Estate,72,"2- B,S","acidic, astringent, spicy",3.5
+2190,Musee du Chocolat Theobroma,Japan,2018,Venezuela,Chuao,70,"2- B,S","Fruity, Roasty",3.5
+1892,La Chocolaterie Nanairo,Japan,2016,Peru,"Tumbes, 2013 Harvest, Batch 8",70,,"grit, earthy, musty",3.0
+1630,Durci,U.S.A.,2015,Ecuador,Corona Arriba,70,"3- B,S,C",blackberry and cinnamon,4.0
+15,Scharffen Berger,U.S.A.,2006,Blend,Extra Dark,82,"5- B,S,C,V,L","dry, bitter, poor aftertaste",2.0
+741,Grand Place,Vietnam,2011,Vietnam,"Ben Tre, Dong Nai",72,"5- B,S,C,V,L","fatty, vanilla, dairy",3.0
+2692,Luisa Abram,Brazil,2021,Brazil,Wild Jurua (limited edition for Caputo's),70,"3- B,S,C","mild sweet honey, rum, off",3.25
+245,Kallari (Ecuatoriana),Ecuador,2008,Ecuador,Roberto,75,"4- B,S,C,V","sweet, vanilla, coffee",2.75
+1928,Dalloway,U.S.A.,2017,Dominican Republic,"Dominican Republic, batch 7",72,"2- B,S","hammy, sour, astringent",2.75
+15,Neuhaus (Callebaut),Belgium,2006,Blend,West Africa,73,"5- B,S,C,V,L","non descript, poor aftertaste",2.0
+2258,Marou,Vietnam,2018,Vietnam,"Dak Nong, Tam Farm",75,"3- B,S,C","fatty, roasty, nutty",3.5
+1760,Ocho,New Zealand,2016,Samoa,Sang Yum Coop,70,"2- B,S","cocoa, roasty, nutty",3.5
+1956,Pump Street Bakery,U.K.,2017,Jamaica,"Bachelor's Hall, batch 6911",75,"2- B,S","sticky, mild, hay, honey",3.75
+2542,Monsoon,U.S.A.,2021,Ecuador,"Esmeraldas, batch 9",75,"2- B,S","intense, floral, cocoa,long lasting",3.75
+2642,Gotham,U.S.A.,2021,Bolivia,"Alto Beni, ""Wild""",70,"2- B,S",spice/herb dominate cocoa base,3.25
+867,Naive,Lithuania,2012,Grenada,Grenada,71,"4- B,S,C,V","sandy, oranges",2.5
+2170,Moka Origins,U.S.A.,2018,Cameroon,"Kombone Village, 2018 Harvest",68,"2- B,S",earthy,3.0
+2638,Chokola,U.S.A.,2021,Bolivia,"Wild Tranquilidad, harvest 2018, batch 9",75,"2- B,S","hint of lemon, classic brownie",3.75
+1049,Nahua,Costa Rica,2013,Costa Rica,"Costa Rica, Oscuro",70,"3- B,S,C","earthy, spicy, cocoa",3.0
+899,Friis Holm (Bonnat),Denmark,2012,Honduras,"Red Mayan, Xoco",70,"3- B,S,C","spicy, earthy",3.25
+1792,Solomons Gold,New Zealand,2016,Solomon Islands,Solomon Island,70,"2- B,S","sweet, roasty, spicy",3.25
+2660,Seahorse,U.S.A.,2021,India,Anamalai,70,"2- B,S","sticky, dark berry, roasty edge",3.5
+1776,Fossa,Singapore,2016,Ecuador,"Camino Verde P., Balao, Guayas",75,"2- B,S","sticky, floral",3.5
+1335,Shark Mountain,U.S.A.,2014,Ecuador,Ecuador,75,"2- B,S","coffee, nutty",3.0
+863,Pacari,Ecuador,2012,Peru,Piura,70,"4- B,S,C,L","light color,complex,molasses",4.0
+2696,Odyssey,U.S.A.,2021,Peru,Ucayali,70,"2- B,S","deep cocoa, cherry, slight ashy",3.25
+565,Bittersweet Origins,U.S.A.,2010,Madagascar,"Sambirano, 2009",70,"2- B,S","red berry, strong wine, sour",3.0
+1403,Nathan Miller,U.S.A.,2014,Ghana,Ghana,70,"3- B,S,C","brownie, toffee",3.5
+2134,Hotel Chocolat,U.K.,2018,Colombia,"Sierra Nevada, Cienaga",75,"4- B,S,C,L","dry, woody, dried fruit",2.75
+1347,Mesocacao,Honduras,2014,Honduras,Honduras,70,"3- B,S,C","intense, grassy, spicy, rich",3.5
+2250,Christophe Toury,U.S.A.,2018,Peru,"Ucayali, batch 1",70,"2- B,S","sweet, sandy, spicy",2.75
+1530,Chocolate Makers,Netherlands,2015,Congo,"Congo, Gorilla bar",68,"3- B,S,C","bold, rich cocoa, coffee",3.5
+963,Vanleer (Barry Callebaut),U.S.A.,2012,Ghana,Manhattan,72,,"sour vanila, heavy roast",2.5
+947,Lillie Belle,U.S.A.,2012,Dominican Republic,"The Other One, Grand Cru",74,"2- B,S","fatty, roasty, cocoa",3.0
+1538,Middlebury,U.S.A.,2015,Tanzania,Kokoa Kamili,75,"3- B,S,C","banana, melon, fatty",3.25
+2470,Acalli,U.S.A.,2020,Peru,"Barataria, El Plantal and Norandino Tumbes blend",70,"2- B,S","hot cocoa, rich, molasses",3.5
+2434,Amedei,Italy,2019,Blend,Toscano Black,70,"3- B,S,C","nut, fatty, rubbery, rich",2.75
+75,Valrhona,France,2006,Madagascar,"Sambirano, Ampamakia 2005, Millot P.",64,"5- B,S,C,V,L","red berry, rich cocoa",3.5
+781,Fruition,U.S.A.,2011,Costa Rica,Costa Rica,70,"3- B,S,C","fatty, sweet, vanilla",3.0
+1836,Martin Mayer,Austria,2016,Haiti,Pisa,82,"3- B,S,C","sandy, earthy, sweet edge",3.0
+713,Shark's,U.S.A.,2011,U.S.A.,"Hawai'i Island, Hilo",73,"4- B,S,C,V","sticky, earthy, medicinal",2.0
+2732,Nicolas,Brazil,2022,Brazil,"Linhares, lot 0321, 2021 harvest",71,"3- B,S,C","molasses, dried fruit",3.25
+2096,Georgia Ramon,Germany,2018,Guatemala,Cahabon E.,72,"3- B,S,C","dry, grainy, spicy, roasty",2.75
+1696,Harper Macaw,U.S.A.,2015,Brazil,Brazil Blend,67,"3- B,S,C","sandy, sweet, dried fruit",3.0
+1235,Dick Taylor,U.S.A.,2014,Dominican Republic,Elvesia,74,"2- B,S","mild fruit and spice, roasty",3.5
+1832,Chocosol,Canada,2016,Mexico,"Chiapas, Lacandon Jungle, Oaxacom Mtn",75,"3- B,S,C","grainy, sweet, whole bean",3.25
+105,Felchlin,Switzerland,2006,Dominican Republic,Elvesia P.,74,"5- B,S,C,V,L","creamy, roasty, cocoa",3.0
+2040,Map Chocolate,U.S.A.,2018,Dominican Republic,Zorzal Reserve,72,"3- B,S,C","complex, creamy, cherry",3.5
+600,Artisan du Chocolat,U.K.,2010,Vietnam,Ba Ria Vung Tau Province,72,"3- B,S,C","unrefined, distinct spicey",3.25
+2214,Kad Kokoa,Thailand,2018,Thailand,Chantaburi,70,"3- B,S,C","nutty, cocoa, sour veggie",3.5
+1764,Chocolate Con Amor,U.S.A.,2016,Dominican Republic,Dominican Republic,75,"2- B,S","sandy, rich, roasty, earthy",3.0
+991,Videri,U.S.A.,2012,Blend,"Classic, Central and S. America",70,"3- B,S,C","sweet, fruity, heavy roast",3.25
+1876,Edelmond,Germany,2016,Venezuela,Porcelana,68,"2- B,S","dry, gritty, cardboard, nutty",3.0
+1022,twenty-four blackbirds,U.S.A.,2013,Dominican Republic,"Dominican Republic, batch 85",68,"2- B,S","roasty, sligt burnt, red fruit",3.25
+1454,Bakau,Peru,2015,Peru,"Bambamarca, 2015",70,"3- B,S,C","molasses, caramel, pungent",2.75
+875,Zotter,Austria,2012,Peru,"Satipo Pangoa region, 20hr conche",70,"4- B,S*,C,Sa","butterscotch, pepper",3.5
+773,Mast Brothers,U.S.A.,2011,Belize,Moho River,70,"2- B,S","gritty, tangy, cocoa",3.5
+2346,Millesime,Belgium,2019,India,"Kaithapara Village, Idukki, Kerala, 2017 H.",74,"3- B,S,C","dry, sandy, empty, sweet",3.0
+1263,Captain Pembleton,New Zealand,2014,Papua New Guinea,Kulili Estate,70,"3- B,S,C","tart, malt, mild smoke",3.75
+1948,Beau Cacao,U.K.,2017,Malaysia,"Asajaya E, NW Borneo, b. #132/4500",73,"3- B,S,C","caramel, spice, earthy",3.0
+404,Vao Vao (Chocolaterie Robert),Madagascar,2009,Madagascar,Madagascar,76,"4- B,S,C,V","fatty, sour, spoiled",2.75
+863,Domori,Italy,2012,Tanzania,Morogoro,70,"2- B,S","sticky, nutty",3.5
+1800,Summerbird,Denmark,2016,Peru,Peru,61,"5- B,S,C,V,L","sandy, sweet, vanilla",2.5
+2202,Chequessett,U.S.A.,2018,Peru,Ucayali River,72,"3- B,S,C","spicy, chocolatey, atypical",3.0
+2378,Xocolatisimo,El Salvador,2019,El Salvador,Hacienda San Jose,75,"4- B,S,C,L","coarse, sweet, candy, licorice",3.0
+1243,Heirloom Cacao Preservation (Guittard),U.S.A.,2014,Ecuador,"Los Rios, Hacienda Limon, Orecao, 2014",67,"3- B,S,C","nutty, butterscotch",3.75
+579,Compania de Chocolate (Salgado),Argentina,2010,Venezuela,Sur del Lago,70,,cocoa then roasted nut,3.25
+2294,Bankston,U.S.A.,2019,Uganda,Uganda,82,"3- B,S,C","bitter, fatty, mild fruit",2.75
+1804,Cao,U.S.A.,2016,Venezuela,"Porcelana, Batch 5163",70,"3- B,S,C",strong nutty with off notes,3.0
+841,Durand,France,2012,Madagascar,Madagascar,82,,"fatty, muted",2.75
+2652,Moku,U.S.A.,2021,Dominican Republic,"Zorzal, batch 8",70,"3- B,S,C","dark fruit, slight harsh molasses",3.25
+1622,"Smooth Chocolator, The",Australia,2015,Madagascar,Akesson's Estate,70,"3- B,S,C","few grits, bold, dark berry",3.5
+2338,Kaitxo,Spain,2019,Nicaragua,"San Juan Coop, El Castillero",75,"3- B,S,C","spicy, tobacco",3.0
+1165,organicfair,Canada,2013,Nicaragua,Nicaraqua,72,"3- B,S,C","grits, roasty, woody",2.75
+1137,Pascha,Peru,2013,Peru,Peru,55,"4- B,S,C,V","gritty, sweet, off",2.5
+414,Bittersweet Origins,U.S.A.,2009,Dominican Republic,Puerto Plata,75,"2- B,S","chalky, strong, harsh smoke",3.0
+1582,Chocolate Tree,Scotland,2015,Venezuela,Carenero Superior,80,"2- B,S","mild bitter, fruit, spice",3.75
+2398,Firetree,U.K.,2019,Vanuatu,Malekula Island,72,"4- B,S,C,L","cherry, cocoa, creamy",3.75
+1193,Artisan du Chocolat,U.K.,2013,Trinidad,"Trinidad, Heritage, Limited ed.",72,"3- B,S,C","gritty, nutty",3.25
+2522,Cultura,U.S.A.,2020,Haiti,"Pisa, 2020 harvest, batch 20111",70,"3- B,S,C",rich malt,3.5
+2298,Chococard (Lapos),Hungary,2019,Dominican Republic,Zorzal,71,"3- B,S,C","chunky, spicy, rubbery",3.25
+327,Rogue,U.S.A.,2009,Venezuela,Rio Caribe,70,"2- B,S","mint, sweet spices",3.5
+2390,Double Spiral,U.S.A.,2019,Tanzania,Kokoa Kamili,70,"2- B,S","dry, sour, sweet, mild fruit",2.75
+1011,A. Morin,France,2013,Brazil,Brazil,70,"4- B,S,C,L",mild tobacco,3.25
+1422,Kto,U.S.A.,2014,Peru,San Martin,72,"2- B,S","intense, pungent, tangy",2.5
+1283,Finca,U.S.A.,2014,Dominican Republic,Dominican Republic,70,"3- B,S,C","sandy, sweet, mild fruit",3.25
+1662,"Smooth Chocolator, The",Australia,2015,Papua New Guinea,"Papua New Guinea, triple roast, batch 1",65,"3- B,S,C","smokey, tart, astringent",3.5
+2642,Gotham,U.S.A.,2021,India,"Idukki Hills, ""Adventurous""",70,"2- B,S","sweet, dominate cocoa, spice",3.0
+2586,Loon,U.S.A.,2021,Belize,Maya Mountain,75,"3- B,S,C","cherry, fatty, cocoa",3.0
+431,Ki' Xocolatl,Mexico,2009,Mexico,Dark,72,"5- B,S,C,V,L","sweet, vanilla domintates, nut",2.0
+1399,Naive,Lithuania,2014,Venezuela,"Barinas, lot 0077",70,"4- B,S,C,L","coarse, sweet",3.0
+227,Domori,Italy,2008,Venezuela,"Carupano, H. San Jose",70,"2- B,S","cucumber, hot spices",3.0
+1034,Patric,U.S.A.,2013,Peru,"Piura, Choc. Garage Exclusive",67,"3- B,S,C","creamy, cocoa, grapes",4.0
+1223,Pump Street Bakery,U.K.,2014,Ecuador,Guantupi River,75,"3- B,S,C","perfume, roasted caramel",3.0
+1458,Violet Sky,U.S.A.,2015,Belize,Moho River Valley,77,"2- B,S","mild metallic, brownie, earth",3.0
+2254,La Feverie (Hasnaa),France,2018,Belize,"Maya Mtn, 2017 harvest",70,"2- B,S","fruit, cocoa, grape",3.5
+414,Bittersweet Origins,U.S.A.,2009,Dominican Republic,Puerto Plata,65,"2- B,S","intense marshmallow, cocoa",3.5
+1478,Map Chocolate,U.S.A.,2015,Ecuador,Ecuador,70,"3- B,S,C","coarse, floral, rum",3.5
+355,Guido Castagna,Italy,2009,Venezuela,Lacri Blend,76,"4- B,S,C,L","gritty, roasty, strong coffee",3.0
+1407,Choco Del Sol,Germany,2014,Belize,Maya Mountain w/ nibs,75,"2- B,S","bland, mild choco & leather",3.0
+1129,Brasstown aka It's Chocolate,U.S.A.,2013,Ghana,"Ghana, batch 021813",75,"5- B,S,C,V,L","fatty, brownie, nutty",3.5
+1820,Zart Pralinen,Austria,2016,Madagascar,"Millot P., Ambanja",70,"3- B,S,C","sticky, mellow choco, dairy",3.5
+2108,Encuentro,France,2018,Haiti,Pisa w/ nibs,70,"2- B,S","simple, mild cocoa, fruit",3.5
+1614,Molucca,U.S.A.,2015,Dominican Republic,La Red,70,"2- B,S","overly intense, tart, red fruit",3.0
+1462,Muchomas (Mesocacao),U.S.A.,2015,Nicaragua,Nicaragua,80,"3- B,S,C","sweet, rich",3.5
+2370,Shane Chocolate Works,U.S.A.,2019,Guatemala,Guatemala,70,"3- B,S,C","spicy, rich cocoa, sweet",3.0
+2234,Palet D'Or,Japan,2018,Cuba,Cuba,72,"5- B,S,C,V,L","creamy, tobacco, cocoa",3.75
+1642,Georgia Ramon,Germany,2015,Ghana,ABOCFA Coop,70,"4- B,S,C,L",cocoa and coconut,4.0
+439,La Maison du Chocolat (Valrhona),France,2009,Blend,Kuruba,60,"4- B,S,C,L","rich, sweet, cocoa, intense",3.0
+1582,Chocolate Tree,Scotland,2015,Peru,Maranon,69,"3- B,S,C","floral, orange, cocoa",3.75
+508,Beschle (Felchlin),Switzerland,2010,Venezuela,"Ocumare, Premier Cru, Quizas No. 2",72,"3- B,S,C","dark cocoa, spicy pepper",3.5
+2362,Mellow,Denmark,2019,Tanzania,"Kokoa Kamili, 2018 harvest, Mbingu Village",70,"2- B,S*","creamy, coconut, cocoa",3.25
+1173,Alain Ducasse,France,2013,Peru,"Piura, Perou",75,"5- B,S,C,V,L","cardboard, dirt, roasty",2.5
+1371,Doble & Bignall,U.K.,2014,Venezuela,"Puerto Cabello, Mantuano",72,"3- B,S,C","fatty, rasin, nutty",3.25
+2418,Pralus,France,2019,Colombia,Colombie,75,"4- B,S,C,L","sandy, coffee, sweet, roasty",3.0
+1287,Meadowlands,U.S.A.,2014,Belize,Belize,70,"2- B,S","spicy, metallic, molasses",3.0
+439,Patric,U.S.A.,2009,Madagascar,Madagascar,67,"3- B,S,C","creamy, fruit forward, rich",3.5
+923,Friis Holm (Bonnat),Denmark,2012,Nicaragua,"Rugoso, Xoco",70,"3- B,S,C","oily, gritty, savory",3.75
+2538,Lirio,U.S.A.,2020,Sierra Leone,"Gola Rainforest, batch 920",72,"2- B,S","grassy, rubbery, chemical",2.5
+2618,Zac Squared,U.S.A.,2021,Trinidad,Rio Claro,70,"3- B,S,C","nutty, fruity, sweet",3.25
+2150,Five (5)Mile,U.S.A.,2018,Dominican Republic,"Oko Caribe, San Fran. De Mac.,batch A",75,"2- B,S","roasty, simple",3.5
+336,Bonnat,France,2009,Peru,"Porcelana, Apotequil",75,"3- B,S,C","flat, bread, earthy",2.75
+789,Potomac,U.S.A.,2011,Peru,"San Martin, Amazonian Highlands",70,"2- B,S","grassy, earthy",2.75
+1876,Nugali,Brazil,2016,Brazil,Fazenda Leolinda,70,"3- B,S,C","nutty, banana, cocoa",3.5
+1101,Castronovo,U.S.A.,2013,Dominican Republic,"Conacado, batch 161",73,"2- B,S","sandy, mild intensity, fruit",3.5
+531,Majani,Italy,2010,Ecuador,Ecuador,70,"4- B,S,C,L","strong vanilla, some spice",2.0
+1696,Choco Dong,South Korea,2015,Malaysia,"Tawau, Oct. 2015 Harvest",70,"2- B,S","high roast, banana raspberry",3.5
+967,Tejas,U.S.A.,2012,Brazil,Espada,70,"3- B,S,C","flat, cardboard, metallic",2.75
+2302,Heinde & Verre,Netherlands,2019,Indonesia,"Pulau, Bali",71,"4- B,S,C,L","rubber, fatty, sandy,grape",2.5
+63,Dolfin (Belcolade),Belgium,2006,Blend,Noir,70,"3- B,S,L","acidic, astringent, unpleasant",1.5
+2390,Double Spiral,U.S.A.,2019,Dominican Republic,Hispaniola,75,"2- B,S","dry, cocoa, grassy, spicy",3.0
+2570,Millesime,Belgium,2021,Tanzania,Kilombero Valley,90,"3- B,S,C","sandy, bitter, sour fruit",3.0
+2338,Kaitxo,Spain,2019,Peru,"Chulucanas, Piura, Cesar Vallejo-farmer",75,"3- B,S,C","muted, grapes, astringent",3.0
+2676,Chaleur B,Canada,2021,Belize,Maya Mountain,70,"3- B,S,C","vanilla, sour, bubblegum",3.0
+1426,Kto,U.S.A.,2014,Dominican Republic,ROIG,72,"3- B,S,C","earthy, fatty, tea",3.25
+2598,Maribea,U.S.A.,2021,Mexico,Tabasco,72,"3- B,S,C","earthy, musty, sweet",2.75
+1900,Arete,U.S.A.,2016,Vietnam,Tien Giang,73,"3- B,S,C","cashew, roasty, chunky melt",3.5
+1466,Ritual,U.S.A.,2015,Ecuador,"Camino Verde P., Balao, Guayas, 2014, b. 001",85,"2- B,S","mild bitter, woody, bourbon",3.5
+1327,Urzi,Italy,2014,Venezuela,"Sur del Lago, Merida",65,"4- B,S,C,V","intense, nutty, mild rubber",3.25
+300,Maglio,Italy,2008,Tanzania,Africa,75,"4- B,S,C,V","chalky, astringent, vanilla",2.0
+2538,Potomac,U.S.A.,2021,Uganda,"Semuliki Forest, batch 20035",75,"2- B,S","light cocoa, dairy,faint cinnamon",3.75
+1022,Night Owl,U.S.A.,2013,Ecuador,Ecuador,75,"3- B,S,C","single note, spicy",3.5
+729,Artisan du Chocolat,U.K.,2011,Haiti,Haiti,72,"3- B,S,C","nuts, butterscotch, brownie",4.0
+1680,Friis Holm (Bonnat),Denmark,2015,Nicaragua,La Dalia,60,"3- B,S,C","oily, sweet, dairy, bland",3.0
+2362,Mellow,Denmark,2019,Ecuador,"Camino Verde, Duran Region",85,"2- B,S*","floral, earthy, bitter",2.5
+451,Coppeneur,Germany,2009,Venezuela,Chuao 70hr,70,"3- B,S,C","dark berry, winey",3.75
+1470,Vicuna,U.S.A.,2015,Bolivia,Palos Blancos + nibs,70,"2- B,S","complex, nibs too soft",3.25
+2174,Fu Wan,Taiwan,2018,Taiwan,"Taiwan, #1",70,"3- B,S,C",cheesy off flavor,2.5
+2450,Moka Origins,U.S.A.,2019,Tanzania,Kokoa Kamili,72,"2- B,S","cocoa, fig, classic",3.75
+1968,Soklet,India,2017,India,India,70,"3- B,S,C","grassy, hammy",2.75
+1904,Arete,U.S.A.,2016,Nicaragua,Rugoso,70,"3- B,S,C","muddy, rich cocoa, raspberry",3.75
+2406,Wm,U.S.A.,2019,Belize,"Maya Mountain, 2017, batch 255",68,"3- B,S,C","flat, molasses, creamy",3.25
+2210,Utopick,Spain,2018,Nicaragua,Nugo,70,"3- B,S,C",roasty cocoa,3.75
+2672,Rozsavolgyi,Hungary,2021,Peru,"Piura, Norandino, Gran Blanco Nativo, b. PB4704",72,"3- B,S,C","blackberry, mild floral",3.75
+833,L'Amourette,U.S.A.,2012,Venezuela,Carenero Superior,75,"5- B,S,C,V,L","chalky, fatty, sweet",3.0
+817,Tejas,U.S.A.,2012,Ecuador,"La Bahia, w/ cane juice",70,"4- B,S,C,V","gritty, rum, molasses",3.25
+2350,ENNA,U.S.A.,2019,Sierra Leone,Gola Rainforest,70,"3- B,S,C","dirty, earthy, burnt, honey",2.5
+931,Fresco,U.S.A.,2012,Papua New Guinea,"Markham Valley, #222, LR, 0C",69,"2- B,S","sandy, smoke, red berry",3.0
+1259,Anahata,U.S.A.,2014,Dominican Republic,Elvesia,75,"2- B,S","chalky, mild fruit, burnt",3.0
+304,Amano,U.S.A.,2008,Indonesia,"Bali, Jembrana",70,"4- B,S,C,V","sticky, nutty, high acidity",2.75
+607,Mindo,U.S.A.,2010,Ecuador,Ecuador,77,"3- B,S,C","dry, coffee notes from roaster",2.75
+709,El Ceibo,Bolivia,2011,Bolivia,"Alto Beni, Covendo Region",75,"4- B,S,C,L","nutty, rich, red berry",3.75
+1279,Isidro,U.S.A.,2014,Dominican Republic,"Dominican Republic, batch 30",72,"2- B,S","roasty, nutty, spicy",3.25
+2732,Didier Smeets,Belgium,2022,Madagascar,Madagascar,63,"3- B,S,C","sl sour, grassy, off, fatty",3.0
+697,Duffy's,U.K.,2011,Nicaragua,"Nicaliso, Xoco",71,"3- B,S,C","intense, almond, coffee",3.25
+2708,Fresco,U.S.A.,2021,Peru,"Lamas, Oro Verde, #280, MR 0C, batch 21-457",74,"3- B,S,C","licorice, caramel, floral, dirty",3.0
+1215,Alain Ducasse,France,2014,Trinidad,Trinite,65,"6-B,S,C,V,L,Sa","roasty, sweet, savory",2.75
+2672,Avanaa,Canada,2021,Colombia,Tumaco,70,"2- B,S","chemical, spice, earthy",2.5
+1542,Izard,U.S.A.,2015,Belize,"Maya Mountain, Toledo, Batch 29",70,"2- B,S","intense, cherry, rich, metallic",3.5
+2064,Krak,Netherlands,2018,Madagascar,Mava Sa Ferme D'ottange,70,"2- B,S","roasty, nutty",3.0
+1121,Malagos,Philippines,2013,Philippines,"Davao, Mt. Talamo foothills",65,"5- B,S,C,V,L","sandy, sweet, cocoa",3.5
+1692,Cacao de Origen,Venezuela,2015,Venezuela,Rio Caribe,75,"2- B,S","spicy, nutty, ends sour",3.25
+162,Pralus,France,2007,Sao Tome,Claudio Corallo w/ nibs,75,"4- B,S,C,L","large nibs, spicy, cocoa",4.0
+423,Danta,Guatemala,2009,Guatemala,Las Acacias E.,75,"4- B,S,C,V","dark woody, plum, astringent",3.0
+1209,French Broad,U.S.A.,2014,Costa Rica,San Andres,80,"2- B,S","mild bitter, roasty, red berry",3.0
+1646,Georgia Ramon,Germany,2015,Dominican Republic,Conacado Coop,80,"4- B,S,C,L","deep cocoa, fruit, spice",3.5
+1113,Hotel Chocolat (Coppeneur),U.K.,2013,Dominican Republic,"Conacado, 2012, 120hr c.batch 13092",100,,"trop. Fruit, coffee, bitter",2.75
+765,Duffy's,U.K.,2011,Venezuela,Ocumare,71,"3- B,S,C",intense cocoa,3.5
+1462,Muchomas (Mesocacao),U.S.A.,2015,Nicaragua,Nicaragua,70,"3- B,S,C","grassy, spicy, sweet",3.5
+983,Soma,Canada,2012,Papua New Guinea,Papua New Guinea,85,"3- B,S,C","mild smoke, fruit, mild burnt",3.5
+494,Republica del Cacao (aka Confecta),Ecuador,2010,Ecuador,Esmeraldas,75,"4- B,S,C,L","strong spicey, earthy green",3.25
+2306,Taucherli,Switzerland,2019,Mexico,Mexico,70,"3- B,S,C","nutty, fruit, sour, floral",3.25
+1450,Mast Brothers,U.S.A.,2015,Tanzania,Tanzania,74,"2- B,S","green, vegetal, mild spice",3.25
+2708,Kasama,Canada,2021,Philippines,"Davao, Mindanao, batch 24",70,"3- B,S,C","licorice, melon",3.25
+1796,Suruca Chocolate,Venezuela,2016,Venezuela,Venezuela,60,"3- B,S,C","sticky, sweet, nutty, roasty",3.0
+761,Santome,France,2011,Sao Tome,Sao Tome,70,"5- B,S,C,V,L","perfume, vanilla",2.75
+1684,Theobroma,Japan,2015,Peru,"Piura Select, Cacao Blanc",70,"2- B,S","peanut butter, sour milk",3.25
+1209,Erithaj (A. Morin),France,2014,Vietnam,Ham Luong,80,"3- B,S,C","mild bitter, smoke, hammy",3.0
+2550,Dandelion,U.S.A.,2021,Peru,"Piura Blanco, 2015 h.,Norandino Coop, batch 1",70,"2- B,S","grape, pungent",3.25
+1263,Captain Pembleton,New Zealand,2014,Papua New Guinea,"Saidor Estate, Madang P.",70,"3- B,S,C","mild smoke, melon",3.5
+276,Guittard,U.S.A.,2008,Venezuela,Ocumare,65,"5- B,S,C,V,L","creamy, nutty",3.5
+272,Domori,Italy,2008,Blend,Blend No. 1,78,"2- B,S","sticky, grassy, coffee",3.5
+2150,hexx,U.S.A.,2018,Madagascar,"Sambirano Valley, batch 0124",74,"2- B,S*","sour, citrus, molasses",2.75
+341,Bouga Cacao (Tulicorp),Ecuador,2009,Ecuador,"El Oro, Hacienda de Oro",100,,"cardboard, very bitter, floral",1.5
+1510,Pitch Dark,U.S.A.,2015,Nicaragua,Nicalizo,80,"3- B,S,C","metal, molasses, roasty",2.75
+2048,Land,U.K.,2018,Honduras,San Pedro Sula,70,"3- B,S,C","sandy, rich cocoa",3.25
+377,Choklat,Canada,2009,Brazil,Brazilian,80,"4- B,S,C,V","roasty, tart, slight burnt",3.0
+2638,Soma,Canada,2021,Venezuela,"Guasare, Rosario de Perija, b.4279-GUA201123",70,"3- B,S,C","spice, sour malt, woody",3.5
+1630,Condor,U.S.A.,2015,Ecuador,Camino Verde,76,"2- B,S","bold, roasty, sticky, brownie",3.5
+1832,Soma,Canada,2016,Ecuador,"Camino Verde, Black S., batch cvu6030.0",70,"3- B,S,C","nutty, banana, harsh ending",3.25
+2688,Conjure,U.S.A.,2021,Ivory Coast,"Ivory Coast, Rainforest Alliance, batch 7",70,"3- B,S,C","off, harsh, dirty, chemical",2.5
+135,Scharffen Berger,U.S.A.,2007,Venezuela,Cuyagua,75,"5- B,S,C,V,L","complex, strawberry, tart",3.75
+1676,Dormouse,U.K.,2015,Madagascar,"Madagascar, Batch 8",77,"3- B,S,C","fruity, molasses",2.75
+1864,Dick Taylor,U.S.A.,2016,Vietnam,Tien Giang,78,"2- B,S","tropical berry, intense",3.5
+370,Fresco,U.S.A.,2009,Venezuela,"Carenero Superior, #203, MR, SC",65,"3- B,S,C","complex, mild licorice, spice",3.5
+2490,Tribe,Canada,2020,Honduras,"Copan, batch 0A03",70,"2- B,S","woody, sweet, unrefined",2.75
+202,Pralus,France,2008,Madagascar,"Sambirano Valley, Le 100%",100,"2- B,C","fatty, mild fruit, bitter, smoke",3.0
+2100,Franceschi,Venezuela,2018,Venezuela,"Sur del Lago, Zulia",70,"3- B,S,C",large grits,3.0
+2154,Five (5)Mile,U.S.A.,2018,Colombia,"Tumaco, batch 23abc",75,"2- B,S","high acidity, bitter, nutty",3.0
+572,Mast Brothers,U.S.A.,2010,Venezuela,Ocumare de la Costa,75,"2- B,S","dry, sticky, nutty, earthy",3.0
+470,Domori,Italy,2010,Venezuela,"Chuao, Hacienda San Jose",70,"2- B,S","subtle, caramel, sour milk",3.0
+502,Malie Kai (Guittard),U.S.A.,2010,U.S.A.,"O'ahu Island, N. Shore, Waialua Estate w/ nibs",55,"5- B,S,C,V,L","creamy, crunchy, very sweet",3.5
+741,Woodblock,U.S.A.,2011,Venezuela,Ocumare,70,"2- B,S","nutty, tart, coffee",4.0
+1932,Spencer,U.S.A.,2017,Peru,Peru,70,"3- B,S,C","floral, earthy, burnt rubber",2.75
+2040,Durci,U.S.A.,2018,Peru,Piura Blanco,70,"3- B,S,C","smoth, dense, grape",4.0
+1426,Kto,U.S.A.,2014,Belize,Belize,90,"2- B,S","intense, spicy, pungent",3.25
+2166,Argencove,Nicaragua,2018,Nicaragua,Apoyo,70,"2- B,S","cocoa, earthy, hammy",3.0
+1097,Lonohana,U.S.A.,2013,U.S.A.,"Hawai'i Island, Hawaiian Crown, Kona Vanilla",70,"4- B,S,C,V","sandy, floral, vanilla, candy",3.5
+1311,Hummingbird,Canada,2014,Dominican Republic,"Hispaniola, batch 73",70,"3- B,S,C","raisins, rich choco",3.75
+1716,Zokoko,Australia,2016,Solomon Islands,Guadalcanal,78,"4- B,S,C,L","smokey, dried fruit, balanced",3.75
+1343,East Van Roasters,Canada,2014,Peru,"Peru, batch P116",70,"3- B,S,C","waxy, spicy, tobacco",3.25
+1019,A. Morin,France,2013,Peru,Chanchamayo Province,63,"3- B,S,C","sweet, cocoa, tangerine",4.0
+2398,Firetree,U.K.,2019,Solomon Islands,Guadalcanal,69,"4- B,S,C,L","plums, cocoa",3.5
+642,Fresco,U.S.A.,2011,Jamaica,"Jamaica, #210, DR, MC",70,"3- B,S,C","woody, grassy, long",3.5
+1271,Paul Young,U.K.,2014,Madagascar,"Madagascar, w/ shell",64,"2- B,S*","coarse, sweet, tart, earthy",2.75
+623,Hotel Chocolat (Coppeneur),U.K.,2011,St. Lucia,"Island Growers, 120hr c.",65,"4- B,S,C,L","woody, nutty, short",3.0
+213,Rogue,U.S.A.,2008,Trinidad,Trinidad,70,"2- B,S","dry, honey, roasty",3.0
+1466,Ritual,U.S.A.,2015,Blend,"Mid Mountain, 2014, batch 002",70,"2- B,S","sticky, woody",3.5
+2630,CAR Artisan,U.S.A.,2021,Mexico,"Soconusco, batch 2",70,"3- B,S,C","strong tobacco, grassy",3.25
+1518,Sol Cacao,U.S.A.,2015,Madagascar,Madagascar,72,"2- B,S","tangy, sour, intense",3.0
+15,Guittard,U.S.A.,2006,Colombia,Chucuri,65,"5- B,S,C,V,L","creamy, sweet, floral, vanilla",3.0
+2470,Tribe,Canada,2020,Peru,Ucayali,70,"2- B,S","very sandy, spicey, sweet",3.0
+1474,Map Chocolate,U.S.A.,2015,Dominican Republic,"ROIG, 2014",70,"3- B,S,C","fruity, tangy, cocoa",3.5
+781,French Broad,U.S.A.,2011,Peru,"Maranon Canyon, Fortunato No. 4",70,"2- B,S","coarse,perfume,heavy roast",3.5
+1590,Laia aka Chat-Noir,France,2015,Madagascar,"Madagascar, Batch 59/100",75,"4- B,S,C,L","roasty, sour, cardboard",2.75
+1359,Kyya,U.S.A.,2014,Dominican Republic,Hispaniola,72.5,"5-B,S,C,V,Sa","vanilla, candy-like, sour milk",3.0
+1399,Palette de Bine,Canada,2014,Trinidad,Gran Couva,70,"2- B,S","mellow, fruity, brownie",3.75
+1800,Bellflower,U.S.A.,2016,Tanzania,"Kokao Kamili, Kilombero Valley",70,"3- B,S,C","sticky, delicate, melon",3.5
+162,Theo,U.S.A.,2007,Madagascar,Madagascar,65,"3- B,S,C","sandy, sweet, blueberry",3.5
+1371,Castronovo,U.S.A.,2014,Colombia,"Arauca, batch 280",76,"3- B,S,C","caramel, sweet, delicate",3.5
+2652,Sirene,Canada,2021,Mexico,"Soconusco, Rayen Cacao Co-op",73,"3- B,S,C","bland, sour, lacks development",3.0
+837,Menakao (aka Cinagra),Madagascar,2012,Madagascar,Madagascar,80,"4- B,S,C,L","sticky, tart, slight burnt",2.5
+1634,Starchild,U.S.A.,2015,Ecuador,"Bolivar, Arriba",70,"4- B,S*,C,V","coconut, mild vanilla",3.0
+129,Amano,U.S.A.,2007,Madagascar,Madagascar,70,"4- B,S,C,V","spice, nut, cocoa, fruit",3.5
+576,L.A. Burdick (Felchlin),U.S.A.,2010,Grenada,Grenada,75,"5- B,S,C,V,L","creamy, cocoa, spice",3.25
+833,L'Amourette,U.S.A.,2012,Venezuela,Rio Caribe,75,"5- B,S,C,V,L","chalky, cocoa, tangy",3.0
+1478,Terroir,U.S.A.,2015,Madagascar,Madagascar,70,"2- B,S","bright fruit, mild sour",3.75
+2012,Stone Grindz,U.S.A.,2017,Bolivia,"Wild Bolivia, batch 260",70,"3- B,S,C","fatty, rubber, off notes",2.5
+147,Guittard,U.S.A.,2007,Blend,Quetzalcoatl,72,"5- B,S,C,V,L","creamy,sandy,nutmeg, moss",3.5
+439,Chocovic,Spain,2009,Blend,Kendari,60,"4- B,S,C,L","chewy, fudge-like, perfume",3.25
+1165,organicfair,Canada,2013,Ecuador,Mindo,72,"3- B,S,C","spicy, sweet, high roast",3.0
+2198,Love Brown,Taiwan,2018,Nicaragua,O'Payo,80,"2- B,S","nutty, mild dairy",3.25
+1319,A. Morin,France,2014,Venezuela,"Puerto Cabello, Criollo",70,"4- B,S,C,L","astringent, nutty, chocolatey",3.75
+2716,Sierra Sagrada,Colombia,2022,Colombia,"Sierra Nevada, Santa Marta",72,"3- B,S,C","brownie, mocha, marshmallow",3.5
+252,El Ceibo,Bolivia,2008,Bolivia,Alto Beni,71,"4- B,S,C,L","lemon, tart, burnt, chemical",2.75
+629,Bonnat,France,2011,Peru,"Cusco, Cacao Cusco",75,"3- B,S,C","roasty, woody, mint",3.5
+1696,Starchild,U.S.A.,2015,Madagascar,Sambirano Valley,70,"4- B,S*,C,V","red fruit, coconut",3.0
+439,Republica del Cacao (aka Confecta),Ecuador,2009,Ecuador,"Los Rios, Vinces",75,"4- B,S,C,L","strong rubber, off chemical",2.5
+1832,De Villiers,South Africa,2016,Uganda,Bundibugyo District,70,"3- B,S,C","high roast, intense, fatty",2.5
+48,Felchlin,Switzerland,2006,Madagascar,"Madagascar, Grand Cru",64,"5- B,S,C,V,L","basic cocoa, short length",3.0
+682,Fresco,U.S.A.,2011,Dominican Republic,"Conacado, #213, DR, -C",72,"3- B,S,C","spicy, cocoa",3.25
+849,Marou,Vietnam,2012,Vietnam,Ben Tre,78,"3- B,S,C","sticky, pepper, cinamon, rich",3.5
+1201,Habitual,Canada,2014,U.S.A.,"Hawai'i Island, Sharkey",66,"3- B,S,C","muted, mild fruit, sweet",3.25
+2092,White Label aka Mutari,U.S.A.,2018,Tanzania,Kokoa Kamili,68,"3- B,S,C","nuts, fruit, poor aftertaste",3.0
+2130,Friis Holm,Denmark,2018,Nicaragua,"Rugoso, Bad Fermentation",70,"3- B,S,C","banana,dairy, cocoa",4.0
+813,Sacred,U.S.A.,2012,Blend,"Midnight, Central and S. America",83,"4- B,S*,C,V","grassy, strong bitter",2.75
+1816,Omnom,Iceland,2016,Tanzania,"Kakao Kamili, Kilombero Valley",70,"3- B,S,C","sweet, dried fruit, gateway",3.75
+180,Dean and Deluca (Belcolade),U.S.A.,2007,Papua New Guinea,Papua New Guinea,64,"4- B,S,C,V","waxy, tobacco, smokey",3.0
+1201,Habitual,Canada,2014,Blend,Amazonas,80,"3- B,S,C","sandy, roasted vegetal",3.0
+230,La Maison du Chocolat (Valrhona),France,2008,Blend,"Cuana, 2008, Ven., Indonesia, Ecuad.",74,"4- B,S,C,L","roasty, dark berry, rich",3.5
+175,Amano,U.S.A.,2007,Venezuela,Ocumare,70,"4- B,S,C,V","spicy, strawberry",3.75
+1101,Tabal,U.S.A.,2013,Dominican Republic,Dominican Republic,70,"4- B,S,C,V","oily, cardboard, sour",2.75
+1470,Nuance,U.S.A.,2015,Dominican Republic,La Red,70,"2- B,S","rich, mild smoke, red fruit",3.75
+2112,Mike & Becky,Belgium,2018,India,Idukki,70,"3- B,S,C","candy spices, sweet",3.25
+1764,Chocolate Con Amor,U.S.A.,2016,Ecuador,Ecuador,70,"2- B,S","molasses, tart, floral",3.25
+1331,Black River (A. Morin),U.K.,2014,Jamaica,Blue Mountain Region,70,"4- B,S,C,L","fatty, nutty",2.75
+2374,Xocolatisimo,El Salvador,2019,El Salvador,Hacienda San Jose,65,"4- B,S,C,L","overly sweet, dirty",2.75
+135,Domori,Italy,2007,Venezuela,Granella,60,"2- B,S","mild spice, licorice",3.25
+887,Middlebury,U.S.A.,2012,Blend,Houseblend,65,"4- B,S*,C,Sa","chemical, salt, wtf",1.5
+1772,Fossa,Singapore,2016,Madagascar,"Akesson's E., Sambirano V.",70,"2- B,S","gummy, bland, sour",2.75
+1514,Brazen,U.S.A.,2015,Dominican Republic,Elvesia P.,60,"3- B,S,C","roasty, sweet, brownie",3.0
+1956,Map Chocolate,U.S.A.,2017,Vietnam,"Lam Dong, ""Red Poppy""",73,"2- B,S","earthy, tobacco, ashey",3.0
+2186,Vicuna,U.S.A.,2018,Guatemala,Alta Verapaz,70,"2- B,S","earthy, sour, intense",3.0
+252,Claudio Corallo,Sao Tome & Principe,2008,Blend,"Principe, Sao Tome & Principe",100,,"chalky, musty, very bitter",1.0
+1920,DAR,U.S.A.,2016,Blend,"DUO, batch 002, Ecuador, Costa Rica",70,"2- B,S","floral, licorice, roasty",3.25
+654,Dandelion (aka Brower Ave),U.S.A.,2011,Dominican Republic,Dominican Republic,70,"2- B,S","grassy, fruity, brownie",3.25
+2498,Kah Kow,U.S.A.,2020,Dominican Republic,"Tireo, Rizek Historical Selection, single estate",68,"4- B,S,C,L","rich cocoa, dried fruit, roasty",3.75
+508,Akesson's (Pralus),U.K.,2010,Brazil,"Monte Alegre, D. Badero",75,"4- B,S,C,L","fatty, intense, woody",2.75
+2562,Letterpress,U.S.A.,2021,Sao Tome & Principe,"Satocao, limited ed., batch 2",70,"3- B,S,C","buttery, sunflower, astringent",3.5
+2266,Cacao 70,Canada,2019,Guatemala,Asochivite,70,"4- B,S,C,L","vegetal, unique",3.5
+327,Valrhona,France,2009,Dominican Republic,Tainori,64,"5- B,S,C,V,L","cocoa dominates, woodsy",3.75
+2190,Belvie,Vietnam,2018,Vietnam,Lam Dong,75,"3- B,S,C","high acidity, nutty, roasty",3.25
+2150,hexx,U.S.A.,2018,Tanzania,"Kokoa Kamili, batch 0214",70,"2- B,S*","lemon, late sour & molasses",3.0
+1223,Pump Street Bakery,U.K.,2014,Venezuela,"Patanemo, Carabobo, Tisano family, b. 3211",75,"3- B,S,C","nutty, fuel, intense",2.75
+2306,Heinde & Verre,Netherlands,2019,Blend,"Dutch Blend, Ven.- Bali- Trinidad",71,"4- B,S,C,L","sandy, fatty, chemical",2.5
+2314,Tree to Bar,South Korea,2019,Ecuador,Ecuador,70,"2- B,S","nutty, floral",3.5
+1944,Alexandre,Netherlands,2017,Ecuador,"Winak Coop, Napo",70,"3- B,S,C","sandy, green, floral",3.5
+48,Bonnat,France,2006,Venezuela,"Maracaibo, El Rosario",75,"3- B,S,C","creamy, fatty, floral",4.0
+1359,Fruition,U.S.A.,2014,Peru,Maranon,76,"3- B,S,C","acidic, undefined, brownie, off",3.0
+1896,Green Bean to Bar,Japan,2016,Madagascar,Madagascar,70,"2- B,S","rich, coffee, cherry",3.5
+1724,Arete,U.S.A.,2016,Tanzania,Kokoa Kamili,70,"2- B,S","appealing smoke, woody",3.75
+623,Hotel Chocolat (Coppeneur),U.K.,2011,Ecuador,"Los Rios, H. Iara, 96hr c.",80,"4- B,S,C,L","mild bitter, floral",3.0
+1442,C-Amaro,Italy,2014,Blend,"Lago di Como, Blu",70,"2- B,S","oily surface, berry, cream",3.5
+1828,Soma,Canada,2016,Brazil,"Bahia Black, batch bra50722.1",70,"3- B,S,C","creamy, diluted, mild choco",3.5
+296,Hotel Chocolat (Coppeneur),U.K.,2008,Tanzania,Tanzania,75,"4- B,S,C,L","sandy, sweet, mild cocoa",2.75
+502,Akesson's (Pralus),U.K.,2010,Madagascar,"Madagascar, Ambolikapiky P.",75,"4- B,S,C,L","strong pepper, musty",2.75
+2322,Foundry,New Zealand,2019,Vanuatu,"Masidau Farm, batch VM021",70,"2- B,S","fruit, smokey, mocha",3.0
+2418,Pralus,France,2019,Ecuador,Equateur,75,"4- B,S,C,L","dried fruit, floral",3.5
+2434,Svenska Kakaobolaget,Sweden,2019,Tanzania,"Kokoa Kamili, 2017 harvest",74,"2- B,S","fruit, burnt, harsh",2.75
+1526,Nibble,U.S.A.,2015,Dominican Republic,Elvesia P.,72,"2- B,S","molasses, rum, tea",2.75
+2052,Dormouse,U.K.,2018,Guatemala,"Verapaz, batch 254",72,"3- B,S*,C","near perfect shine, cocoa",3.5
+705,Adi aka Fijiana (Easy In Ltd),Fiji,2011,Fiji,Vanua Levu,88,"3- B,S,C","orange, floral, lemon",3.5
+2502,Kah Kow,U.S.A.,2020,Dominican Republic,"West Indian, Rizek Historical S.",67,"4- B,S,C,L","banana, fall spices, earthy",3.75
+2684,Spinnaker,U.S.A.,2021,Madagascar,"Bejofo, Akesson, batch 10-1",70,"2- B,S","plum, roasty undertone, sour",3.5
+2610,Marana,Peru,2021,Peru,"San Martin, Allima coop",80,"3- B,S,C","smoked nuts, tang",3.25
+1197,Habitual,Canada,2014,Blend,Trinidad & Tobago,70,"3- B,S,C","sandy, intense, cherry",3.5
+1219,Mana,U.S.A.,2014,Venezuela,Venezuela,74,"3- B,S,C","nutty, green",2.75
+63,Valrhona,France,2006,Blend,"Guanaja, South America",70,"5- B,S,C,V,L","subtle, smooth, earthy, long",3.75
+2084,Cacaodada,South Korea,2018,Dominican Republic,Dominican Republic,70,,"creamy, complex, astingent",3.25
+1740,Two Ravens,U.S.A.,2016,Peru,Peru,60,"3- B,S,C","coarse, sweet, lemon",3.0
+971,Tejas,U.S.A.,2012,Bolivia,San Jose,67,"3- B,S,C","green apple, sweet",3.25
+123,Amedei,Italy,2007,Jamaica,Jamaica,70,"4- B,S,C,V","sandy, woody, spicy",3.0
+615,S.A.I.D.,Italy,2010,Dominican Republic,Samana,70,,"fudgey, astringent, sour",3.0
+2434,Dick Taylor,U.S.A.,2019,Madagascar,"Akesson P., Sambirano",72,"2- B,S","sticky, dried fruit, toast, cocoa",3.75
+423,Kaoka (Cemoi),France,2009,Ecuador,Ecuador,80,,"spicy, floral, bitter",2.75
+544,Mars,U.S.A.,2010,Ivory Coast,"Ivory Coast, prototype",65,,"chewy, earthy, spicy",3.0
+1347,Castronovo,U.S.A.,2014,Colombia,"Sierra Nevada, batch 1",72,"3- B,S,C","caramel, molasses, fruit",3.5
+615,S.A.I.D.,Italy,2010,Blend,Latino,72,,"sandy, sweet, spice",3.5
+1259,Soma,Canada,2014,Peru,Maranon Canyon,70,"3- B,S,C","creamy, sour orange",3.75
+1712,Hogarth,New Zealand,2016,Venezuela,Carenero Superior,72,"3- B,S,C","nutty, off notes",2.75
+1494,Ambrosia,Canada,2015,Madagascar,Madagascar,66,"2- B,S","fruity, sour",3.25
+2036,Zotter,Austria,2018,Blend,"Dry Aged, 30 yr Anniversary bar",75,"3- B,S,C","fatty, earthy, cocoa",3.0
+1708,Raaka,U.S.A.,2015,Congo,Virunga,75,"3- B,S,C","refined, honey, rubber",2.75
+2622,Cuna de Piedra,Mexico,2021,Mexico,"Comalcalco, Tabasco, b. 2370003, 2019 harvest",73,"2- B,S","deep cocoa, fruit, melon",3.75
+769,Woodblock,U.S.A.,2011,Dominican Republic,La Red,70,"2- B,S","brownie, fruit, fudge",3.5
+2594,Seahorse,U.S.A.,2021,Vietnam,Ben Tre,70,"2- B,S",blueberry & cocoa dominate,3.5
+2602,Dandelion,U.S.A.,2021,India,"Anamalai, 2018 H., batch 1",70,"2- B,S","pungent, sour, tart, intense",2.75
+1391,Cacao de Origen,Venezuela,2014,Venezuela,"Macuare; Miranda; Chloe formula, H. La Trinidad",74,"2- B,S","nutty, intense, leathery",3.25
+1542,Frederic Blondeel,Belgium,2015,Vietnam,Vietnam,80,"4- B,S,C,L","intense, bitter, off notes",3.0
+2108,Seahorse,U.S.A.,2018,Dominican Republic,Zorzal,70,"2- B,S","earthy, mild fruit, sticky",3.0
+2282,Krak,Netherlands,2019,Papua New Guinea,Gazelle,70,"2- B,S","astringent, smomkey cocoa",3.25
+336,Scharffen Berger,U.S.A.,2009,Brazil,Tome Acu,68,"5- B,S,C,V,L","smooth, tart, earthy",3.75
+2154,Casa,U.S.A.,2018,Blend,"Ecuador, Vietnam",75,"2- B,S","off notes, vanilla",2.0
+2100,Johnny Iuzzini,U.S.A.,2018,India,"Anamalai, batch 8",66,"4- B,S,C,L","gritty, coffee, sweet, hammy",3.0
+199,Bonnat,France,2008,Venezuela,"Porcelana, Venezuela",75,"3- B,S,C","creamy, strawberry, nutty",4.0
+1760,Chocolate Con Amor,U.S.A.,2016,Uganda,Uganda,70,"2- B,S","roasty, cocoa, molasses",2.75
+2258,Dick Taylor,U.S.A.,2018,Fiji,"Vanua Levu, Matasawalevu",80,"2- B,S","cocoa, tea, malt",3.75
+2076,Cacao Gonzales,U.S.A.,2018,Venezuela,Chuao,70,"2- B,S","poor texture, earthy",3.0
+2302,Pangea,Spain,2019,Dominican Republic,Caribe,76,"2- B,S","cocoa, earthy, roasty",3.25
+141,Pierre Marcolini,Belgium,2007,Madagascar,"Sambirano, Ambanja, Madagascar",72,"5- B,S,C,V,L","tangy, floral, spicy, cocoa",4.0
+600,Artisan du Chocolat,U.K.,2010,Costa Rica,Costa Rica,72,"3- B,S,C","chewy, grassy, nutty",3.25
+963,Vanleer (Barry Callebaut),U.S.A.,2012,Ghana,Napa,65,,"oily, caramel ""rolo"", sweet",2.75
+1478,Terroir,U.S.A.,2015,Peru,Peru,70,"2- B,S","spicy, black pepper, intense",2.75
+1061,Robert (aka Chocolaterie Robert),Madagascar,2013,Madagascar,Madagascar w/ nibs,68,"4- B,S,C,L","basic cocoa, large nibs",3.25
+2354,River-Sea,U.S.A.,2019,Peru,Ucayali,70,"3- B,S,C","fatty, rubbery, off",2.5
+1728,Altus aka Cao Artisan,U.S.A.,2016,Peru,Acopagro,60,"3- B,S,C","dry, sweet, caramel",3.0
+1339,Soma,Canada,2014,Blend,"Little Big Man, Madagascar & Ecuador",70,"3- B,S,C","tart, mild sour",3.25
+2004,San Jose,Ecuador,2017,Ecuador,"H. San Jose, Los Rios, L300817",70,"4- B,S,C,L","few grits, basic, gateway",3.25
+2118,Encuentro,France,2018,Madagascar,Bejofo,70,"2- B,S","fruity, roasty",3.5
+1133,Altus aka Cao Artisan,U.S.A.,2013,Bolivia,"Bolivia, batch 154",60,"4- B,S,C,L","grit, sweet, caramel, fruit",3.0
+636,Akesson's (Pralus),U.K.,2011,Indonesia,"Bali (west), Sukrama Family, Melaya area",75,"4- B,S,C,L","hay, nut, berry",3.75
+1668,Szanto Tibor,Hungary,2015,Ecuador,Nacional,70,"3- B,S,C","sweet, brownie, sour",3.25
+478,Coppeneur,Germany,2010,Venezuela,Chuao,70,"3- B,S,C","fruity, bland",3.0
+2114,Bixby,U.S.A.,2018,Guatemala,Guatemala,70,"2- B,S","molasses, earthy, spicy",3.0
+1876,A. Morin,France,2016,Sao Tome,Agua Grande,63,"4- B,S,C,L","sweet, chocolatey, vegetal",3.75
+346,Cacao Sampaka,Spain,2009,Mexico,"Xoconusco, Chiapas, cacao Real",70,"4- B,S,C,L","creamy, nutty, banana, rich",4.0
+2386,Obolo,Chile,2019,Peru,"Pangoa, 2018, batch 1584 - E",70,"2- B,S","intense grapes, sweet cocoa",3.75
+2008,Johnny Iuzzini,U.S.A.,2017,Madagascar,"Sambirano Valley, Batch 7",68,"5- B,S,C,V,L","vanilla, gateway",3.5
+1434,Spencer,Australia,2014,Vanuatu,Malekula Island,72,"3- B,S,C","bready, sour milk, fatty",2.75
+1077,Soma,Canada,2013,Venezuela,Patanemo,70,"3- B,S,C","nutty, chocolate ice cream",3.75
+1848,Pacari,Ecuador,2016,Colombia,"Sierra Nevada, Tutu Iku",70,"4- B,S,C,L","complex, balanced",4.0
+213,Rogue,U.S.A.,2008,Madagascar,"Sambirano, 2008",70,"2- B,S","raisins, sour, roasty",3.0
+1125,Altus aka Cao Artisan,U.S.A.,2013,Venezuela,Sur del Lago,60,"4- B,S,C,L","sweet, moldy, off",2.5
+1952,Letterpress,U.S.A.,2017,Belize,"Maya Mtn, Batch 18, Heirloom",70,"2- B,S","smokey, mild berry",3.25
+2202,Fu Wan,Taiwan,2018,Venezuela,Chuao,70,"3- B,S,C","dried fruit, cocoa",3.5
+1113,Hotel Chocolat,U.K.,2013,St. Lucia,"Island Growers, 2012, 120hr c., batch 13080",100,,"pastey, bitter, unfixable",1.75
+1299,Noble Bean aka Jerjobo,U.S.A.,2014,Belize,Moho Valley,75,"4- B,S*,V,L","coconut, mild metallic",3.0
+939,Szanto Tibor,Hungary,2012,Peru,"Ayacucho, ""El Guinacho""",70,"3- B,S,C","sweet, spicy",3.75
+600,Cacao Atlanta,U.S.A.,2010,Venezuela,Patanemo,75,"2- B,S","over roasted, bitter, nutty",2.25
+642,Fresco,U.S.A.,2011,Jamaica,"Jamaica, #209, DR, SC",70,"3- B,S,C","grassy, brownie, astringent",3.25
+572,Mast Brothers,U.S.A.,2010,Venezuela,Patanemo,81,"2- B,S","sticky, woody, musty",2.75
+341,Coppeneur,Germany,2009,Peru,"Porcelana, Apotequil",72,"3- B,S,C","creamy, buttery, non descript",3.0
+1173,Wilkie's Organic,Ireland,2013,Peru,Amazonas w/ nibs,75,"3- B,S,C","mild, metallic",2.75
+1026,Dandelion,U.S.A.,2013,Venezuela,"Cumboto, farmer Jose Lugo, batch 1",70,"2- B,S","acidic, sour, cocoa",2.75
+2362,Mellow,Denmark,2019,Philippines,"Kablon Farms, Mindanao Island, 2018 harvest",70,"2- B,S*","smooth, coconut, cocoa",3.25
+2426,MaDe Atlantic City Chocolate Bar,U.S.A.,2019,Uganda,Uganda,75,"3- B,S,C","gritty, roasty, rubbery",2.5
+1534,Jordis,Czech Republic,2015,Madagascar,Madagascar,63,"2- B,S","off note, vanilla, basic cocoa",2.75
+478,Pierre Marcolini,Belgium,2010,Venezuela,Chuao,75,"5- B,S,C,V,L","strong vanilla, nutty, spicey",3.0
+2088,Bitacora,Venezuela,2018,Venezuela,Merida,70,"4- B,S,C,L","gritty, spicy, earthy",3.0
+516,Pierre Marcolini,Belgium,2010,Cuba,Baracoa,78,"5- B,S,C,V,L","chunky, rich and spicy",3.75
+1387,Dandelion,U.S.A.,2014,Dominican Republic,"San Francisco de Macoris, Cibao region",70,"2- B,S","cherry, rich choco",3.75
+1666,"Smooth Chocolator, The",Australia,2015,Peru,"Maranon, batch 2",67,"3- B,S,C","light brown, grits, floral",3.0
+2676,Chaleur B,Canada,2021,Peru,"Maranon, nano-lot #709, bar# 371",72,"3- B,S,C","dominate grape, plastic off note",3.25
+2494,Odyssey,U.S.A.,2020,Tanzania,Kokoa Kamili,70,"2- B,S","sour banana, muted",3.0
+1566,Rogue,U.S.A.,2015,Bolivia,"Tranquilidad, Batch 1",75,"2- B,S","roasty, dried fruit, sour",3.25
+304,Dolfin (Belcolade),Belgium,2008,Blend,"Africa, West Africa",88,"3- B,S,L","sticky, floral",3.0
+2470,Qantu,Canada,2020,Peru,"Morropon, Piura, AoC Golden Bean 2018",70,"3- B,S,C","intense plum, harsh woody",3.5
+1335,Shark Mountain,U.S.A.,2014,Belize,"Belize, 2013",72,"2- B,S","fruity, blueberry",3.25
+478,Pierre Marcolini,Belgium,2010,Trinidad,Trinite,75,"5- B,S,C,V,L",berry notes with sweet edge,3.25
+24,Michel Cluizel,France,2006,Sao Tome,Tamarina,70,"4- B,S,C,V","creamy, licorice, herbs",3.0
+1205,Vintage Plantations,U.S.A.,2014,Peru,San Martin,75,"3- B,S,C","sandy, sweet, nutty",3.0
+749,C-Amaro,Italy,2011,Sao Tome,Sao Tome,78,"2- B,S",burnt up front,2.25
+308,Maglio,Italy,2008,Dominican Republic,Santo Domingo,70,"5- B,S,C,V,L","creamy, hay, nutty",3.75
+2218,Tribar,Peru,2018,Peru,"Piura, Gran Chilique",70,"3- B,S,C","sweet, pungent grape, acidic",3.5
+2206,A. Morin,France,2018,Peru,Absolu,63,"4- B,S,C,L","sweet, dairy, spice, cocoa",3.75
+1267,Bowler Man,U.S.A.,2014,Belize,Maya Mountain,70,,"sandy, vanilla, candy-like",2.75
+1526,Nibble,U.S.A.,2015,Madagascar,"Ambanja, Sambirano Valley",72,"2- B,S","molasses, bright fruit",3.0
+192,Domori,Italy,2007,Ecuador,Ecuador,70,"2- B,S","creamy, nuts, woody, cocoa",4.0
