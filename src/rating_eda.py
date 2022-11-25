@@ -116,7 +116,7 @@ def main(in_file, out_dir):
     # Create a new column for percentage
     boom_train_ingredients_df['Percent'] = round(boom_train_ingredients_df['Count'] / sum(boom_train_ingredients_df['Count']) * 100, 2)
 
-    boom_train_ingredients_df
+    boom_train_ingredients_df.to_csv(out_dir + '/ingredients.csv', index=False)
 
     # B = Beans, S = Sugar, S* = Sweetener other than white cane or beet sugar, C = Cocoa Butter, V = Vanilla, L = Lecithin, Sa = Salt
     ingredients_bar = alt.Chart(boom_train_ingredients_df,
@@ -145,7 +145,7 @@ def main(in_file, out_dir):
     # Create a new column for percentage
     boom_train_characteristics_df['Percent'] = round(boom_train_characteristics_df['Count'] / sum(boom_train_characteristics_df['Count']) * 100, 2)
 
-    boom_train_characteristics_df
+    boom_train_characteristics_df.to_csv(out_dir + '/characteristics.csv', index=False)
 
     characteristics_bar = alt.Chart(boom_train_characteristics_df[:20],
                                     title = "Barplot of memorable characteristics"
