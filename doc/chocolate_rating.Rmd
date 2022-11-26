@@ -45,7 +45,7 @@ We performed a series of EDA on the dataset and found that the memorable charact
 knitr::include_graphics("../results/characteristcs_bar.png") 
 ```
 
-This was derived by first splitting the comma-delimited "most memorable characteristics". Cocoa comes out as top flavour at 3.03% while nutty and sweet are the other top two flavours. Note that different reviewers might taste chocolates differently, hence a certain amount of subjectivity must be noted here.
+This was derived by first splitting the comma-delimited "most memorable characteristics". Cocoa comes out as top flavour while nutty and sweet are the other top two flavours. Note that different reviewers might taste chocolates differently, hence a certain amount of subjectivity must be noted here.
 
 Here is a boxplot of the manufacturing company vs. chocolate rating:
 
@@ -67,13 +67,13 @@ knitr::kable(result_mape, caption = "Table 1. MAPE Scores of 3 Models") |>
 kableExtra::kable_styling(full_width = FALSE)
 ```
 
-For comparison, we also plot the comparison of the predicted and the true values for both Ridge and SVR models. We can tell that the the predication error is smaller for SVR. This corresponds to the numeric results of the MAPE scores.
+For comparison, we also plot the comparison of the predicted and the true values for both Ridge and SVR models. We can tell that the predication error is smaller for SVR. This corresponds to the numeric results of the MAPE scores.
 
 ```{r ridge-predict-vs-true, echo=FALSE, fig.width=2, fig.height = 1.5, fig.cap="Figure 3. Predicted vs.true value (Ridge and SVR).", fig.show = 'hold', fig.align='center', out.width = '50%'}
 knitr::include_graphics(c("../results/ridge_predict_vs_true.png", "../results/svr_predict_vs_true.png"))
 ```
 
-It is interesting to note the relationships between the models and the informative features we mentioned above. Here is a table of the coefficient importance for the Ridge model. We can see that `raspberry` and `Company_(Manufacturer)_Fruition` have the biggest positive coefficients, meaning adding these two factors will lead to the largest increase in the chocolate rating. This is consistent with what we found in the EDA as the company Fruition has a large median as well as a wide error bar, which indicates that it might produce some extremely good products. At the bottom, `chemical` and `medicinal` have the most negative coefficients. Having these two predictors will result in a large decrease in the rating score. This is not surprising as the majority do not like chocolates with these two characteristics:
+It is interesting to note the relationships between the models and the informative features we mentioned above. Here is a table of the coefficient importance for the Ridge model. We can see that `raspberry` and `Company_(Manufacturer)_Fruition` have the biggest positive coefficients, meaning adding these two factors will lead to the largest increase in the chocolate rating. This is consistent with what we found in the EDA as the company Fruition has a large median as well as a wide error bar, which indicates that it might produce some extremely good products. At the bottom, `chemical` and `medicinal` have the most negative coefficients. Having these two features will result in a large decrease in the rating score. This is not surprising as the majority do not like chocolates with these two characteristics:
 
 ```{r ridge coefficients}
 knitr::kable(ridge_coefficients, caption = "Table 2. Ridge Coefficients") |>
@@ -82,7 +82,7 @@ kableExtra::kable_styling(full_width = FALSE)
 
 # Future Improvements
 
-There are a number of improvements we can make towards this machine learning problem. From the data side of things, the current label distribution is skewed towards the right and it may be worthwhile to apply a log-transform to rescale the distribution. In addition, we can examine if the dataset can be improved; for example, could we get more detailed user feedback on chocolates, venue where it was sold, more informative Ingredients column (instead of the current one which we had to drop). 
+There are a number of improvements we can make towards this machine learning problem. From the data side of things, the current label distribution is skewed and it may be worthwhile to apply a log-transform to rescale the distribution. In addition, we can examine if the dataset can be improved; for example, could we get more detailed user feedback on chocolates, venue where it was sold, more informative Ingredients column (instead of the current one which we had to drop). 
 
 \
 From a features standpoint, we can also explore approaches whether we can employ further feature engineering techniques (for example, feature crosses and feature selection). Another fruitful approach might be to use more sophisticated text embedding techniques such as deep learning ones. On the model's side, we can experiment with more exhaustive hyperparameter tuning and perhaps other model architectures as well (Decision Tree, Neural Networks, etc). Lastly, it may be worthwhile to try out other evaluation metrics in future studies (R2, Mean Squared Error, Root Mean Squared Error) instead of just MAPE; this will give us a more clear picture of how the model performs overall and more guarantees prior to production deployment.
