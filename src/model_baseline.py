@@ -3,7 +3,7 @@
 
 """ Use training data set to get the baseline DummyRegressor model and save the model to file for further processing
 
-Usage: model_svc.py --in_file=<in_file> --out_dir=<out_dir>
+Usage: model_baseline.py --in_file=<in_file> --out_dir=<out_dir>
  
 Options:
 --in_file=<in_file>       Path (including filename) to training data (csv file)
