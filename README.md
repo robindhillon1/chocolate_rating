@@ -20,6 +20,10 @@ The workflow of how the data analysis should be run is shown in the flowchart/di
 
 **Figure 1**. Flowchart of analysis
 
+# Installation
+Create a conda environment by running the command below:<br>
+`conda env create -f src/env-dsci-522.yaml`
+
 # Usage
 Install the dependencies listed in the next section, run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
