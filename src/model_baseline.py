@@ -55,10 +55,10 @@ def main(in_file, out_dir):
 
     try:
         # Write model to file
-        pickle.dump(dr_mape, open(out_dir + '/' + filename, 'wb'))
+        pickle.dump(dr, open(out_dir + '/' + filename, 'wb'))
     except:
         os.makedirs(os.path.dirname(out_dir + '/'))
-        pickle.dump(dr_mape, open(out_dir + '/' + filename, 'wb'))
+        pickle.dump(dr, open(out_dir + '/' + filename, 'wb'))
 
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])
