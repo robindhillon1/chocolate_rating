@@ -18,10 +18,20 @@ The data can also be preprocessed depending on the inferred important feature co
 
 # Usage
 Install the dependencies listed in the next section, run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
-- To download the data file:
+- To download the data file:<br>
 `python src/download_data.py --url="http://flavorsofcacao.com/database_w_REF.html" --out_file="data/raw/chocolate_raw.csv"`
-- To run the Exploratory data analysis (EDA):
-`Open src/chocolate_rating_eda.ipynb on JupyterLab, and run all code blocks.`
+- To perform data cleaning, and split raw data file into train set and test set:<br>
+`python src/data_preprocessing.py --in_file=data/raw/chocolate_raw.csv --out_dir=data/processed/`
+- To generate Exploratory data analysis (EDA) output:<br>
+`python src/rating_eda.py --in_file=data/processed/train.csv --out_dir=results/`
+- To train baseline model:<br>
+`python src/model_baseline.py --in_file=data/processed/train.csv --out_dir=results/`
+- To train SVR model:<br>
+`python src/model_svr.py --in_file=data/processed/train.csv --out_dir=results/`
+- To train Ridge model:<br>
+`python src/model_ridge.py --in_file=data/processed/train.csv --out_dir=results/`
+- To generate score of the models from test data set:<br>
+`python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --dummy=model_baseline.sav --svr=model_svr.sav --ridge=model_ridge.sav --out_dir=results/`
 
 # Dependencies
   - ipykernel
@@ -46,6 +56,8 @@ Install the dependencies listed in the next section, run the command shown below
     - joblib==1.1.0
     - mglearn
     - psutil>=5.7.2
+    - vl_convert
+    - docopt-ng
 # License
 The materials here for Chocolate Rating Predictor are licensed under the **Creative Commons Attribution 2.5 Canada License** ([CC BY 2.5 CA](https://creativecommons.org/licenses/by/2.5/ca/)). MIT License
 
