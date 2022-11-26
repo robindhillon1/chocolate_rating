@@ -57,10 +57,8 @@ def main(in_file, out_dir):
     except:
         pass
 
-    # Read raw data files
-    choco_raw = pd.read_csv(f"{in_file}")
-
-    train_df, test_df = train_test_split(choco_raw, test_size=0.25, random_state=522)
+    # Read training data 
+    train_df = pd.read_csv(f"{in_file}")
 
     ratings_train = alt.Chart(train_df,
                               title = "Barplot of chocolate ratings for train data"
@@ -69,13 +67,10 @@ def main(in_file, out_dir):
         y=alt.Y('count()')).properties(width=400, height=300)
     save_chart(ratings_train, out_dir + '/ratings_train.png')
     
-    train_df.columns = train_df.columns.str.replace(' ', '_')
-    test_df.columns = test_df.columns.str.replace(' ', '_')
-    train_df['Ingredients'] = train_df['Ingredients'].replace('', np.nan)
-    test_df['Ingredients'] = test_df['Ingredients'].replace('', np.nan)
+    #train_df.columns = train_df.columns.str.replace(' ', '_')
+    #train_df['Ingredients'] = train_df['Ingredients'].replace('', np.nan)
 
-    train_df['Cocoa_Percent'] = train_df['Cocoa_Percent'].str.rstrip('%').astype('float')
-    test_df['Cocoa_Percent'] = test_df['Cocoa_Percent'].str.rstrip('%').astype('float')
+    #train_df['Cocoa_Percent'] = train_df['Cocoa_Percent'].str.rstrip('%').astype('float')
 
     # Analyse Ingredients
     # B = Beans, S = Sugar, S* = Sweetener other than white cane or beet sugar, C = Cocoa Butter, V = Vanilla, L = Lecithin, Sa = Salt
