@@ -25,7 +25,6 @@ from scipy.stats import loguniform, randint, uniform
 import pickle
 import altair as alt
 import vl_convert as vlc
-# from sklearn.linear_model import Ridge
 
 # Handle large data sets without embedding them in the notebook
 #alt.data_transformers.enable('data_server')
@@ -110,21 +109,7 @@ def main(in_file, out_dir):
     
     print(f'Best params: {random_search.best_params_}')
     print(f'Best score: {random_search.best_score_} ({scoring_metrics})')
-    
-    
-    # For Ridge coefficients
-    # # Get feature names
-    # feature_names = numeric_features + (
-    #     svr_pipe.named_steps['columntransformer']
-    #         .named_transformers_['onehotencoder']
-    #         .get_feature_names_out()
-    #         .tolist()) + (
-    #     svr_pipe.named_steps['columntransformer']
-    #         .named_transformers_['countvectorizer']
-    #         .get_feature_names_out()
-    #         .tolist())
-    # coef_df = pd.DataFrame(data={"features": feature_names, "coefficients": random_search.coef_})  # Go to try/except to write to csv
-    
+
     
     # Prepare for predict_vs_true plot
     y_predict = random_search.predict(X_train)  
@@ -156,12 +141,10 @@ def main(in_file, out_dir):
         # Write model to file
         pickle.dump(random_search, open(out_dir + '/' + filename, 'wb'))
         save_chart(predict_vs_true + diagonal, out_dir + '/svr_predict_vs_true.png')
-        # coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
     except:
         os.makedirs(os.path.dirname(out_dir + '/'))
         pickle.dump(random_search, open(out_dir + '/' + filename, 'wb'))
         save_chart(predict_vs_true + diagonal, out_dir + '/svr_predict_vs_true.png')
-        # coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
 
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])
