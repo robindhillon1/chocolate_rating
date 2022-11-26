@@ -675,7 +675,7 @@ train-test split of 75-25. For both the Ridge and SVR models, we used
 sklearn’s RandomizedSearchCV to find the best model hyperparameters.
 Throughout this project, we used Python and R programming languages
 <span class="citation">(Van Rossum and Drake 2009; R Core Team
-2022)</span>. The following R and Python packages also were used to
+2022)</span>. The following Python and R packages also were used to
 perform the analysis: docopt <span class="citation">(Keleshev
 2014)</span>, pickle <span class="citation">(Van Rossum 2020)</span>,
 pandas <span class="citation">(team 2020)</span>, numpy <span class="citation">(Harris et al. 2020)</span>, knitr <span class="citation">(Xie 2022a)</span>, kableExtra<span class="citation">(Xie 2022b)</span>, and tidyverse<span class="citation">(Wickham et al. 2019)</span>.</p>
@@ -694,10 +694,9 @@ Figure 1.Count of memorable characteristics.
 </p>
 </div>
 <p>This was derived by first splitting the comma-delimited “most
-memorable characteristics”, then taking their percentages with respect
-to all data observations. Cocoa comes out as top flavour at 3.03% while
-nutty and sweet are the other top two flavours. Note that different
-reviewers might taste chocolates differently, hence a certain amount of
+memorable characteristics”. Cocoa comes out as top flavour while nutty
+and sweet are the other top two flavours. Note that different reviewers
+might taste chocolates differently, hence a certain amount of
 subjectivity must be noted here.</p>
 <p>Here is a boxplot of the manufacturing company vs. chocolate
 rating:</p>
@@ -715,8 +714,9 @@ narrower error bar than Soma, and the same median as 3.75. Therefore,
 “Smooth Chocolatro” has stable and high chocolate rating.</p>
 <p>Our model performance is given in the below table. The evaluation
 metric we picked for this project is MAPE (Mean Absolute Percentage
-Error). The best performing model is the SVR model with a MAPE score of
-0.0798650. Ridge comes next with the MAPE score 0.0822302:</p>
+Error, the smaller the better). The best performing model is the SVR
+model with a MAPE score of 0.0798650. Ridge comes next with the MAPE
+score 0.0822302:</p>
 <table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Table 1. MAPE Scores of 3 Models
@@ -759,7 +759,7 @@ Ridge
 </tbody>
 </table>
 <p>For comparison, we also plot the comparison of the predicted and the
-true values for both Ridge and SVR models. We can tell that the the
+true values for both Ridge and SVR models. We can tell that the
 predication error is smaller for SVR. This corresponds to the numeric
 results of the MAPE scores.</p>
 <div class="figure" style="text-align: center">
@@ -772,13 +772,15 @@ Figure 3. Predicted vs.true value (Ridge and SVR).
 the informative features we mentioned above. Here is a table of the
 coefficient importance for the Ridge model. We can see that
 <code>raspberry</code> and <code>Company_(Manufacturer)_Fruition</code>
-have the biggest positive coefficients, meaning the change in these two
-predictor variables will lead to the largest increase in the chocolate
-rating. At the bottom, <code>chemical</code> and <code>medicinal</code>
-have the most negative coefficients, meaning that the change in these
-two predictors will result in to a large decrease in the rating score.
-This is not difficult to explain as the majority do not like chocolate
-with these two characteristics:</p>
+have the biggest positive coefficients, meaning adding these two factors
+will lead to the largest increase in the chocolate rating. This is
+consistent with what we found in the EDA as the company Fruition has a
+large median as well as a wide error bar, which indicates that it might
+produce some extremely good products. At the bottom,
+<code>chemical</code> and <code>medicinal</code> have the most negative
+coefficients. Having these two features will result in a large decrease
+in the rating score. This is not surprising as the majority do not like
+chocolates with these two characteristics:</p>
 <table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Table 2. Ridge Coefficients
@@ -961,21 +963,20 @@ medicinal
 <h1>Future Improvements</h1>
 <p>There are a number of improvements we can make towards this machine
 learning problem. From the data side of things, the current label
-distribution is skewed towards the right and it may be worthwhile to
-apply a log-transform to rescale the distribution. In addition, we can
-examine if the dataset can be improved; for example, could we get more
-detailed user feedback on chocolates, venue where it was sold, more
-informative Ingredients column (instead of the current one which we had
-to drop). </p>
+distribution is skewed and it may be worthwhile to apply a log-transform
+to rescale the distribution. In addition, we can examine if the dataset
+can be improved; for example, could we get more detailed user feedback
+on chocolates, venue where it was sold, more informative Ingredients
+column (instead of the current one which we had to drop). </p>
 <p><br />
 From a features standpoint, we can also explore approaches whether we
 can employ further feature engineering techniques (for example, feature
-crosses). Another fruitful approach might be to use more sophisticated
-text embedding techniques such as deep learning ones. On the models
-side, we can experiment with more exhaustive hyperparameter tuning than
-the naive approaches we tried and perhaps other model architectures as
-well (Decision Tree, Neural Networks, etc). Lastly, it may be worthwhile
-to try out other evaluation metrics in future studies (R2, Mean Squared
+crosses and feature selection). Another fruitful approach might be to
+use more sophisticated text embedding techniques such as deep learning
+ones. On the model’s side, we can experiment with more exhaustive
+hyperparameter tuning and perhaps other model architectures as well
+(Decision Tree, Neural Networks, etc). Lastly, it may be worthwhile to
+try out other evaluation metrics in future studies (R2, Mean Squared
 Error, Root Mean Squared Error) instead of just MAPE; this will give us
 a more clear picture of how the model performs overall and more
 guarantees prior to production deployment.</p>
