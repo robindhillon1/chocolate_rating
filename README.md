@@ -27,7 +27,7 @@ Create a conda environment by running the command below:<br>
 # Usage
 Install the dependencies listed in the next section, run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
-`python src/download_data.py --url="http://flavorsofcacao.com/database_w_REF.html" --out_file="data/raw/chocolate_raw.csv"`
+`python src/download_data.py --url=http://flavorsofcacao.com/database_w_REF.html --out_file=data/raw/chocolate_raw.csv`
 - To perform data cleaning, and split raw data file into train set and test set:<br>
 `python src/data_preprocessing.py --in_file=data/raw/chocolate_raw.csv --out_dir=data/processed/`
 - To generate Exploratory data analysis (EDA) output:<br>
@@ -40,6 +40,8 @@ Install the dependencies listed in the next section, run the command shown below
 `python src/model_ridge.py --in_file=data/processed/train.csv --out_dir=results/`
 - To generate score of the models from test data set:<br>
 `python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --dummy=model_baseline.sav --svr=model_svr.sav --ridge=model_ridge.sav --out_dir=results/`
+- To generate the final analysis report (run this in an RStudio Terminal):<br>
+`Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"`
 
 # Dependencies
   - ipykernel
