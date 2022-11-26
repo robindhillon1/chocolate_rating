@@ -44,10 +44,10 @@ def main(in_file, out_dir):
     dr.fit(X_train, y_train)
     
     # Get the predict Value
-    dr_y_predit = dr.predict(X_test)
+    y_predict = dr.predict(X_train)
     
     # Get the MAPE test score
-    dr_mape = mean_absolute_percentage_error(y_test, dr_y_predit)
+    dr_mape = mean_absolute_percentage_error(y_train, y_predict)
     
     print(f'Dummy score: {dr_mape} ({scoring_metrics})')
     

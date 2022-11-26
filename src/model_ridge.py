@@ -56,6 +56,7 @@ def save_chart(chart, filename, scale_factor=1):
     else:
         raise ValueError("Only svg and png formats are supported")
 
+        
 def main(in_file, out_dir):
     # Read data from training data (csv)
     train_df = pd.read_csv(in_file)
@@ -104,20 +105,26 @@ def main(in_file, out_dir):
     
     print(f'Best params: {random_search.best_params_}')
     print(f'Best score: {random_search.best_score_} ({scoring_metrics})')
+
     
-    # # Get feature names
-    # feature_names = numeric_features + (
-    #     ridge_pipe.named_steps['columntransformer']
-    #         .named_transformers_['onehotencoder']
-    #         .get_feature_names_out()
-    #         .tolist()) + (
-    #     ridge_pipe.named_steps['columntransformer']
-    #         .named_transformers_['countvectorizer']
-    #         .get_feature_names_out()
-    #         .tolist())
-    # coef_df = pd.DataFrame(data={"features": feature_names, "coefficients": random_search.coef_})  # Go to try/except to write to csv
+    # Get feature names
+    feature_names = numeric_features + (
+        random_search.best_estimator_.named_steps['columntransformer']
+            .named_transformers_['onehotencoder']
+            .get_feature_names_out()
+            .tolist()) + (
+        random_search.best_estimator_.named_steps['columntransformer']
+            .named_transformers_['countvectorizer']
+            .get_feature_names_out()
+            .tolist())
     
+    # Extract top n positive and top n negative features
+    n_top_bottom = 10
+    coef_df = pd.DataFrame(data={"features": feature_names, "coefficients": random_search.best_estimator_.named_steps['ridge'].coef_})
+    coef_df = coef_df.sort_values('coefficients', ascending=False)
+    coef_df = pd.concat([coef_df.head(n_top_bottom), coef_df.tail(n_top_bottom)])
     
+
     # Prepare for predict_vs_true plot
     y_predict = random_search.predict(X_train)  
     plot_df = pd.DataFrame([y_train, y_predict]).T
@@ -147,12 +154,12 @@ def main(in_file, out_dir):
         # Write model to file
         pickle.dump(random_search, open(out_dir + '/' + filename, 'wb'))
         save_chart(predict_vs_true + diagonal, out_dir + '/ridge_predict_vs_true.png')
-        # coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
+        coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
     except:
         os.makedirs(os.path.dirname(out_dir + '/'))
         pickle.dump(random_search, open(out_dir + '/' + filename, 'wb'))
         save_chart(predict_vs_true + diagonal, out_dir + '/ridge_predict_vs_true.png')
-        # coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
+        coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
 
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])
