@@ -23,10 +23,43 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import RandomizedSearchCV
 from scipy.stats import loguniform, randint, uniform
 import pickle
+import altair as alt
+import vl_convert as vlc
 # from sklearn.linear_model import Ridge
+
+# Handle large data sets without embedding them in the notebook
+#alt.data_transformers.enable('data_server')
+alt.data_transformers.disable_max_rows()
+# Include an image for each plot since Gradescope only supports displaying plots as images
+alt.renderers.enable('mimetype')
 
 opt = docopt(__doc__)
 
+
+def save_chart(chart, filename, scale_factor=1):
+    '''
+    Save an Altair chart using vl-convert
+    
+    Parameters
+    ----------
+    chart : altair.Chart
+        Altair chart to save
+    filename : str
+        The path to save the chart to
+    scale_factor: int or float
+        The factor to scale the image resolution by.
+        E.g. A value of `2` means two times the default resolution.
+    '''
+    if filename.split('.')[-1] == 'svg':
+        with open(filename, "w") as f:
+            f.write(vlc.vegalite_to_svg(chart.to_dict()))
+    elif filename.split('.')[-1] == 'png':
+        with open(filename, "wb") as f:
+            f.write(vlc.vegalite_to_png(chart.to_dict(), scale=scale_factor))
+    else:
+        raise ValueError("Only svg and png formats are supported")
+
+        
 def main(in_file, out_dir):
     # Read data from training data (csv)
     train_df = pd.read_csv(in_file)
@@ -78,14 +111,57 @@ def main(in_file, out_dir):
     print(f'Best params: {random_search.best_params_}')
     print(f'Best score: {random_search.best_score_} ({scoring_metrics})')
     
+    
+    # For Ridge coefficients
+    # # Get feature names
+    # feature_names = numeric_features + (
+    #     svr_pipe.named_steps['columntransformer']
+    #         .named_transformers_['onehotencoder']
+    #         .get_feature_names_out()
+    #         .tolist()) + (
+    #     svr_pipe.named_steps['columntransformer']
+    #         .named_transformers_['countvectorizer']
+    #         .get_feature_names_out()
+    #         .tolist())
+    # coef_df = pd.DataFrame(data={"features": feature_names, "coefficients": random_search.coef_})  # Go to try/except to write to csv
+    
+    
+    # Prepare for predict_vs_true plot
+    y_predict = random_search.predict(X_train)  
+    plot_df = pd.DataFrame([y_train, y_predict]).T
+    plot_df.columns = ['True', 'Predict']
+    
+    # Dummy dataframe for plotting a diagonal line
+    dummy_df = pd.DataFrame({'True': [0, 5], 'Predict': [0, 5]})
+    
+    # Our plot
+    predict_vs_true = alt.Chart(plot_df, title = "Predict vs True (SVR)").mark_point().encode(
+        x=alt.X('True'),
+        y=alt.Y('Predict')
+    ).properties(
+        width=400,
+        height=400
+    )
+    
+    # The diagonal line
+    diagonal = alt.Chart(dummy_df).mark_line(color='red').encode(
+        x='True',
+        y='Predict'
+    )
+
+    
     filename = 'model_svr.sav'
 
     try:
         # Write model to file
         pickle.dump(random_search, open(out_dir + '/' + filename, 'wb'))
+        save_chart(predict_vs_true + diagonal, out_dir + '/svr_predict_vs_true.png')
+        # coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
     except:
         os.makedirs(os.path.dirname(out_dir + '/'))
         pickle.dump(random_search, open(out_dir + '/' + filename, 'wb'))
+        save_chart(predict_vs_true + diagonal, out_dir + '/svr_predict_vs_true.png')
+        # coef_df.to_csv(out_dir + '/ridge_coefficients.csv', index=False)  # output should have two columns: Features, Coefficients
 
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])
