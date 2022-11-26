@@ -3,15 +3,15 @@
 
 
 """Get all models' results for a test data set
-Usage: model_summary.py --in_dir=<in_dir> --out_dir=<out_dir> --data_file=<data_file> --dummy=<dummy> --svr=<svr> --ridge==<ridge> 
+Usage: model_summary.py --in_file=<in_file> --model_dir=<model_dir> --dummy=<dummy> --svr=<svr> --ridge==<ridge> --out_dir=<out_dir>
  
 Options:
---in_dir=<in_dir>         Mandatory option argument. Path of input directory.
---out_dir=<out_dir>       Mandatory option argument. Path of output directory.
---data_file=<data_file>   Mandatory option argument. Filename of test data.
+--in_file=<in_file>       Mandatory option argument. Path of input data file.
+--model_dir=<model_dir>   Mandatory option argument. Path of model directory.
 --dummy=<dummy>           Mandatory option argument. Filename of dummy model.
 --svr=<svr>               Mandatory option argument. Filename of SVR model.
 --ridge=<ridge>           Mandatory option argument. Filename of Ridge model.
+--out_dir=<out_dir>       Mandatory option argument. Path of output directory.
 """
 
 import os
@@ -24,18 +24,18 @@ import pickle
 
 opt = docopt(__doc__)
 
-def main(in_dir, out_dir, data_file, dummy, svr, ridge):
+def main(in_file, model_dir, dummy, svr, ridge, out_dir):
     
     # Read test data
-    test_df = pd.read_csv(in_dir + '/' + data_file)
+    test_df = pd.read_csv(in_file)
     
     # Split into X and y
     X_test, y_test = test_df.drop(columns=['Rating']), test_df['Rating']
     
     # Read every sav model
-    dummy_model = pickle.load(open(in_dir + '/' + dummy, 'rb'))
-    svr_model = pickle.load(open(in_dir + '/' + svr, 'rb'))
-    ridge_model = pickle.load(open(in_dir + '/' + ridge, 'rb'))
+    dummy_model = pickle.load(open(model_dir + '/' + dummy, 'rb'))
+    svr_model = pickle.load(open(model_dir + '/' + svr, 'rb'))
+    ridge_model = pickle.load(open(model_dir + '/' + ridge, 'rb'))
     
     # Get y predict for every model
     y_pred_dummy = dummy_model.predict(X_test)
@@ -63,4 +63,4 @@ def main(in_dir, out_dir, data_file, dummy, svr, ridge):
 
 
 if __name__ == "__main__":
-    main(opt["--in_dir"], opt["--out_dir"], opt["--data_file"], opt["--dummy"], opt["--svr"], opt["--ridge"])
+    main(opt["--in_file"], opt["--model_dir"], opt["--dummy"], opt["--svr"], opt["--ridge"], opt["--out_dir"])
