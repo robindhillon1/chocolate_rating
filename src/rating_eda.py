@@ -22,7 +22,6 @@ alt.data_transformers.disable_max_rows()
 # Include an image for each plot since Gradescope only supports displaying plots as images
 alt.renderers.enable('mimetype')
 
-from pandas_profiling import ProfileReport
 from docopt import docopt
 from sklearn.model_selection import train_test_split
 
@@ -59,21 +58,9 @@ def main(in_file, out_dir):
         pass
 
     # Read raw data files
-    choco_raw = pd.read_csv("../data/raw/chocolate_raw.csv")
-    choco_raw.shape
-
-    choco_raw.info()
-
-    ratings_bar = alt.Chart(choco_raw,
-                            title = "Barplot of chocolate ratings for raw data"
-    ).mark_bar().encode(
-        x=alt.X('Rating', title='Rating', bin = alt.BinParams(maxbins = 20)),
-        y=alt.Y('count()')
-        ).properties(width=400, height=300)
-    save_chart(ratings_bar, out_dir + '/ratings_bar.png')
+    choco_raw = pd.read_csv(f"{in_file}")
 
     train_df, test_df = train_test_split(choco_raw, test_size=0.25, random_state=522)
-    train_df
 
     ratings_train = alt.Chart(train_df,
                               title = "Barplot of chocolate ratings for train data"
@@ -87,14 +74,8 @@ def main(in_file, out_dir):
     train_df['Ingredients'] = train_df['Ingredients'].replace('', np.nan)
     test_df['Ingredients'] = test_df['Ingredients'].replace('', np.nan)
 
-    train_df.info()
-
     train_df['Cocoa_Percent'] = train_df['Cocoa_Percent'].str.rstrip('%').astype('float')
     test_df['Cocoa_Percent'] = test_df['Cocoa_Percent'].str.rstrip('%').astype('float')
-
-    train_df.info()
-
-    train_df.describe(include='all')
 
     # Analyse Ingredients
     # B = Beans, S = Sugar, S* = Sweetener other than white cane or beet sugar, C = Cocoa Butter, V = Vanilla, L = Lecithin, Sa = Salt
