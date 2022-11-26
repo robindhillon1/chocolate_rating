@@ -16,6 +16,10 @@ Since we have a predictive research question, we separate the dataset into train
 
 The data can also be preprocessed depending on the inferred important feature columns. For example, if we believe the `Ingredients` or `Most Memorable Characteristics` columns are indeed important for the model, we would need to split them by commas and possibly perform `OneHotEncoding` since these are categorical variables. We could use regression models for predictions such as `Decision Trees`, `SVM RBF`, `k-NN` (`k Nearest Neighbors`), and more. Note, however, that we will most likely use multiple models to explore which one model gives us the best results. These models will be fit to the training data and then evaluated by cross-validation. They will be further improved via hyperparameter optimization to obtain the best model, which will then be used for predictions on the test data. The hyperparameter optimization will be done via `GridSearchCV` or `RandomizedSearchCV`; depending on computation resources, `RandomizedSearchCV` would be more ideal. We will also check how our best model scores on the test data; it will be used to predict the chocolate rating of the test set and metrics such as the model accuracy will be obtained as well to gain an understanding of how our model will fare against deployment data. These results will ultimately be saved in a dataframe.
 
+# Installation
+Install environment `522` for the project.<br>
+`conda env create -f env-dsci-522.yaml`
+
 # Usage
 Install the dependencies listed in the next section, run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
