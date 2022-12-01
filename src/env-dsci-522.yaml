@@ -22,6 +22,7 @@ dependencies:
   - pandas-profiling
   - ipywidgets
   - lxml
+  - pandoc
   - pip
   - lightgbm
   - pip:
