@@ -24,6 +24,9 @@ The workflow of how the data analysis should be run is shown in the flowchart/di
 Create a conda environment by running the command below:<br>
 `conda env create -f src/env-dsci-522.yaml`
 
+Install the necessary R packages:<br>
+`Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret'), repos='https://cran.rstudio.com/')"`
+
 # Usage
 Install the dependencies listed in the next section, run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
