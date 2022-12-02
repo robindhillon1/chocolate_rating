@@ -25,7 +25,7 @@ Create a conda environment by running the command below:<br>
 `conda env create -f src/env-dsci-522.yaml`
 
 Install the necessary R packages:<br>
-`Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret'), repos='https://cran.rstudio.com/')"`
+`Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret', 'xfun'), repos='https://cran.rstudio.com/')"`
 
 # Usage
 
