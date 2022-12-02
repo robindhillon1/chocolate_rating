@@ -1,10 +1,12 @@
 # Chocolate Rating Predictor
 
-* Authors:
+## Authors:
     - Robin Dhillon
     - Lisha Gao
     - Markus Nam
     - Eyre Hong
+
+This data science project is created for the DSCI 522 (Data Science Workflows); a course in the Master of Data Science program at the University of British Columbia.
     
 # About 
 
@@ -22,10 +24,33 @@ The workflow of how the data analysis should be run is shown in the flowchart/di
 
 # Installation
 Create a conda environment by running the command below:<br>
-`conda env create -f src/env-chocolate.yaml`
+
+    conda env create -f src/env-chocolate.yaml
+
+To activate the environment, please run:
+
+    conda activate chocolate
+
+Install the necessary R packages:<br>
+
+    Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret', 'xfun'), repos='https://cran.rstudio.com/')"
 
 # Usage
-Install the dependencies listed in the next section, run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
+
+Below, we suggest two different ways to run this analysis:
+
+#### 1\. Using Make
+
+We suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies). Next, while you are at the the root directory of this project, run the following command at the command line:
+
+    make all
+
+If results already exist when `make all` is used, or if the results of the above command need to be undone for a clean state of the repository, run the following command at the command line while still being at root directory of this project:
+
+    make clean
+
+#### 2\. If `make` is not available, then the following steps can be followed: 
+Install the dependencies listed in [dependencies](#dependencies), run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
 `python src/download_data.py --url=http://flavorsofcacao.com/database_w_REF.html --out_file=data/raw/chocolate_raw.csv`
 - To perform data cleaning, and split raw data file into train set and test set:<br>
@@ -42,6 +67,7 @@ Install the dependencies listed in the next section, run the command shown below
 `python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --dummy=model_baseline.sav --svr=model_svr.sav --ridge=model_ridge.sav --out_dir=results/`
 - To generate the final analysis report (run this in an RStudio Terminal):<br>
 `Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"`
+
 
 # Dependencies
   - ipykernel
