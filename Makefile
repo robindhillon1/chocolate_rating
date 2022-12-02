@@ -1,6 +1,6 @@
 # Chocolate Rating Data Pipe
 # Author: DSCI 522 Group 5
-# Date: 2022-11-29
+# Date: 2022-12-01
 
 all: doc/chocolate_rating.html results/result_mape.csv results/svr_predict_vs_true.png results/ridge_predict_vs_true.png results/ridge_coefficients.csv results/characteristcs_bar.png results/company_boxplot.png
 
@@ -35,3 +35,9 @@ results/result_mape.csv: src/model_summary.py data/processed/test.csv results/mo
 # render report
 doc/chocolate_rating.html: doc/chocolate_rating.Rmd doc/references.bib results/result_mape.csv results/ridge_coefficients.csv results/characteristcs_bar.png results/company_boxplot.png results/ridge_predict_vs_true.png results/svr_predict_vs_true.png
 	Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"
+
+clean:
+	rm -rf data/raw/*
+	rm -rf data/processed/*
+	rm -rf results/*
+	rm -rf doc/chocolate_rating.html
