@@ -28,7 +28,21 @@ Install the necessary R packages:<br>
 `Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret'), repos='https://cran.rstudio.com/')"`
 
 # Usage
-Install the dependencies listed in the next section, run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
+
+Below, we suggest two different ways to run this analysis:
+
+#### 1\. Using Make
+
+We suggest using this method to replicate this analysis. First, please clone this reposityory and install the [dependencies](#dependencies). Next, while you are at the the root directory of this project, run the following command at the command line:
+
+    make all
+
+The results of the above command can be undone if a clean state of the repository is desired. To do so, run the following command at the command line while still being at root directory of this project:
+
+    make clean
+
+#### 2\. If `make` is not available, then the following steps can be followed: 
+Install the dependencies listed in [dependencies](#dependencies), run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
 `python src/download_data.py --url=http://flavorsofcacao.com/database_w_REF.html --out_file=data/raw/chocolate_raw.csv`
 - To perform data cleaning, and split raw data file into train set and test set:<br>
@@ -45,6 +59,7 @@ Install the dependencies listed in the next section, run the command shown below
 `python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --dummy=model_baseline.sav --svr=model_svr.sav --ridge=model_ridge.sav --out_dir=results/`
 - To generate the final analysis report (run this in an RStudio Terminal):<br>
 `Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"`
+
 
 # Dependencies
   - ipykernel
