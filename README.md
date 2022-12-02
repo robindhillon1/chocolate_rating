@@ -1,10 +1,12 @@
 # Chocolate Rating Predictor
 
-* Authors:
+## Authors:
     - Robin Dhillon
     - Lisha Gao
     - Markus Nam
     - Eyre Hong
+
+This data science project is created for the DSCI 522 (Data Science Workflows); a course in the Master of Data Science program at the University of British Columbia.
     
 # About 
 
@@ -22,10 +24,16 @@ The workflow of how the data analysis should be run is shown in the flowchart/di
 
 # Installation
 Create a conda environment by running the command below:<br>
-`conda env create -f src/env-dsci-522.yaml`
+
+    conda env create -f src/env-dsci-522.yaml
+
+To activate the environment, please run:
+
+    conda activate chocolate
 
 Install the necessary R packages:<br>
-`Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret', 'xfun'), repos='https://cran.rstudio.com/')"`
+
+    Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret', 'xfun'), repos='https://cran.rstudio.com/')"
 
 # Usage
 
@@ -33,11 +41,11 @@ Below, we suggest two different ways to run this analysis:
 
 #### 1\. Using Make
 
-We suggest using this method to replicate this analysis. First, please clone this reposityory and install the [dependencies](#dependencies). Next, while you are at the the root directory of this project, run the following command at the command line:
+We suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies). Next, while you are at the the root directory of this project, run the following command at the command line:
 
     make all
 
-The results of the above command can be undone if a clean state of the repository is desired. To do so, run the following command at the command line while still being at root directory of this project:
+If results already exist when `make all` is used, or if the results of the above command need to be undone for a clean state of the repository, run the following command at the command line while still being at root directory of this project:
 
     make clean
 
