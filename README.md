@@ -25,7 +25,7 @@ The workflow of how the data analysis should be run is shown in the flowchart/di
 # Installation
 Create a conda environment by running the command below:<br>
 
-    conda env create -f src/env-dsci-522.yaml
+    conda env create -f src/env-chocolate.yaml
 
 To activate the environment, please run:
 
