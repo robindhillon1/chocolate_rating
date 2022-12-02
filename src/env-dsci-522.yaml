@@ -1,7 +1,7 @@
 # Install the course conda environment by running 
 # the following command in your conda base environment:
 # conda env create -f env-dsci-522.yaml
-name: '522'
+name: 'chocolate'
 channels:
   - conda-forge
   - defaults
