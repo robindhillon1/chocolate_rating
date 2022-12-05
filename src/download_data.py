@@ -1,6 +1,8 @@
 # Author: DSCI_522_Group_5
 # Date: 2022-11-18
 # Original code source: download_data.py used in DSCI 522 Lecture 2 (with modifications)
+# Change log:
+#     2022-12-05: Add output file existence test
 
 """Downloads data (html table) from the web, convert and save it as a csv to a local filepath.
 
@@ -29,6 +31,8 @@ def main(url, out_file):
         os.makedirs(os.path.dirname(out_file))
         data.to_csv(out_file, index=False)
 
+    # Verify the existence of the output file(s)
+    assert os.path.isfile(out_file), f"{out_file} not found. Please check." 
 
 if __name__ == "__main__":
     main(opt["--url"], opt["--out_file"])

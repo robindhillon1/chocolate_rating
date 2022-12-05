@@ -1,5 +1,7 @@
 # Author: DSCI_522_Group_5
 # Date: 2022-11-25
+# Change log:
+#     2022-12-05: Add output file existence test
 
 """ Use training data set to get the baseline DummyRegressor model and save the model to file for further processing
 
@@ -60,5 +62,8 @@ def main(in_file, out_dir):
         os.makedirs(os.path.dirname(out_dir + '/'))
         pickle.dump(dr, open(out_dir + '/' + filename, 'wb'))
 
+    # Verify the existence of the output file(s)
+    assert os.path.isfile(out_dir + '/' + filename), f"{out_dir}/{filename} not found. Please check." 
+        
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])

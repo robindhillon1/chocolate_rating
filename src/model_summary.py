@@ -1,6 +1,7 @@
 # Author: DSCI_522_Group_5
 # Date: 2022-11-25
-
+# Change log:
+#     2022-12-05: Add output file existence test
 
 """Get all models' results for a test data set
 Usage: model_summary.py --in_file=<in_file> --model_dir=<model_dir> --dummy=<dummy> --svr=<svr> --ridge==<ridge> --out_dir=<out_dir>
@@ -61,6 +62,8 @@ def main(in_file, model_dir, dummy, svr, ridge, out_dir):
         os.makedirs(os.path.dirname(out_dir + '/'))
         result_df.to_csv(out_dir + '/result_mape.csv', index=False)
 
+    # Verify the existence of the output file(s)
+    assert os.path.isfile(out_dir + '/result_mape.csv'), f"{out_dir}/result_mape.csv not found. Please check."
 
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--model_dir"], opt["--dummy"], opt["--svr"], opt["--ridge"], opt["--out_dir"])
