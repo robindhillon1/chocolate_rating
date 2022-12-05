@@ -2,6 +2,7 @@
 # Date: 2022-11-21
 # Change log:
 #     2022-11-24: Add skiprows=[0]
+#     2022-12-05: Add output file existence test
 
 """ Preprocess chocolate data (from http://flavorsofcacao.com/chocolate_database.html). Write the training data and test data to separate files.
 
@@ -43,5 +44,9 @@ def main(in_file, out_dir):
         train_df.to_csv(out_dir + '/train.csv', index=False)
         test_df.to_csv(out_dir + '/test.csv', index=False)
 
+    # Verify the existence of the output file(s)
+    assert os.path.isfile(out_dir + '/train.csv'), f"{out_dir}/train.csv not found. Please check." 
+    assert os.path.isfile(out_dir + '/test.csv'), f"{out_dir}/test.csv not found. Please check." 
+        
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])

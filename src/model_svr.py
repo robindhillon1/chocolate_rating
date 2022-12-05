@@ -1,5 +1,7 @@
 # Author: DSCI_522_Group_5
 # Date: 2022-11-25
+# Change log:
+#     2022-12-05: Add output file existence test
 
 """ Use training data set to train SVR model and save the model to file for further processing
 
@@ -146,5 +148,9 @@ def main(in_file, out_dir):
         pickle.dump(random_search, open(out_dir + '/' + filename, 'wb'))
         save_chart(predict_vs_true + diagonal, out_dir + '/svr_predict_vs_true.png')
 
+    # Verify the existence of the output file(s)
+    assert os.path.isfile(out_dir + '/' + filename), f"{out_dir}/{filename} not found. Please check." 
+    assert os.path.isfile(out_dir + '/svr_predict_vs_true.png'), f"{out_dir}/svr_predict_vs_true.png not found. Please check."
+        
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])

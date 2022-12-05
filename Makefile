@@ -1,6 +1,8 @@
 # Chocolate Rating Data Pipe
 # Author: DSCI 522 Group 5
 # Date: 2022-12-01
+# Change log:
+#     2022-12-05: Reduce number of options of model_summary.py
 
 all: doc/chocolate_rating.html results/result_mape.csv results/svr_predict_vs_true.png results/ridge_predict_vs_true.png results/ridge_coefficients.csv results/characteristcs_bar.png results/company_boxplot.png
 
@@ -30,7 +32,7 @@ results/model_ridge.sav results/ridge_predict_vs_true.png results/ridge_coeffici
 
 # generate scores on test data
 results/result_mape.csv: src/model_summary.py data/processed/test.csv results/model_baseline.sav results/model_svr.sav results/model_ridge.sav
-	python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --dummy=model_baseline.sav --svr=model_svr.sav --ridge=model_ridge.sav --out_dir=results/
+	python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --out_dir=results/
 
 # render report
 doc/chocolate_rating.html: doc/chocolate_rating.Rmd doc/references.bib results/result_mape.csv results/ridge_coefficients.csv results/characteristcs_bar.png results/company_boxplot.png results/ridge_predict_vs_true.png results/svr_predict_vs_true.png

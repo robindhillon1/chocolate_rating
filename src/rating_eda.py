@@ -1,5 +1,7 @@
 # Author: DSCI_522_Group_5
 # Date: 2022-11-25
+# Change log:
+#     2022-12-05: Add output file existence test
 
 """ Exploratory data analysis on the chocolate database found here: http://flavorsofcacao.com/chocolate_database.html. The plotted figures are saved as well. 
 
@@ -67,16 +69,7 @@ def main(in_file, out_dir):
         y=alt.Y('count()')).properties(width=400, height=300)
     save_chart(ratings_train, out_dir + '/ratings_train.png')
     
-    #train_df.columns = train_df.columns.str.replace(' ', '_')
-    #train_df['Ingredients'] = train_df['Ingredients'].replace('', np.nan)
-
-    #train_df['Cocoa_Percent'] = train_df['Cocoa_Percent'].str.rstrip('%').astype('float')
-
-    # Analyse Ingredients
-    # B = Beans, S = Sugar, S* = Sweetener other than white cane or beet sugar, C = Cocoa Butter, V = Vanilla, L = Lecithin, Sa = Salt
-
     # Drop the rows with blank ingredients, remove the first 2 characters which are meaningless, split the comma delimited text
-    # boom_train_ingredients = choco_raw['Ingredients'].replace('', np.nan)
     boom_train_ingredients = train_df['Ingredients']
     boom_train_ingredients = boom_train_ingredients.dropna()
     boom_train_ingredients = boom_train_ingredients.str[2:].str.split(',').explode()
@@ -228,6 +221,16 @@ def main(in_file, out_dir):
 )
     save_chart(company_boxplot, out_dir + '/company_boxplot.png') 
 
+    # Verify the existence of the output file(s)
+    assert os.path.isfile(out_dir + '/ratings_train.png'), f"{out_dir}/ratings_train.png not found. Please check." 
+    assert os.path.isfile(out_dir + '/ingredients_bar.png'), f"{out_dir}/ingredients_bar.png not found. Please check." 
+    assert os.path.isfile(out_dir + '/characteristcs_bar.png'), f"{out_dir}/characteristcs_bar.png not found. Please check." 
+    assert os.path.isfile(out_dir + '/heatmap_cocoa.png'), f"{out_dir}/heatmap_cocoa.png not found. Please check." 
+    assert os.path.isfile(out_dir + '/location_boxplot.png'), f"{out_dir}/location_boxplot.png not found. Please check." 
+    assert os.path.isfile(out_dir + '/country_boxplot.png'), f"{out_dir}/country_boxplot.png not found. Please check." 
+    assert os.path.isfile(out_dir + '/company_boxplot.png'), f"{out_dir}/company_boxplot.png not found. Please check." 
+    assert os.path.isfile(out_dir + '/ingredients.csv'), f"{out_dir}/ingredients.csv not found. Please check." 
+    assert os.path.isfile(out_dir + '/characteristics.csv'), f"{out_dir}/characteristics.csv not found. Please check." 
 
 if __name__ == "__main__":
     main(opt["--in_file"], opt["--out_dir"])
