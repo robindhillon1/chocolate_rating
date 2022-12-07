@@ -21,7 +21,7 @@ library(caret)
 
 # Summary
 
-In this project, we tackle the regression problem of predicting chocolate ratings from a chocolate database containing information such as `Company Location`and `Company (manufacturer)` as well as ingredient specific features such as `Country of Bean Origin` and `Cocoa Percent`. We trained a number of different models on this problem (DummyRegressor, Ridge, and SVR) and determined that the best performing model was SVR which had a MAPE (Mean Absolute Percentage Error) of 0.0798650. This is a relatively reasonable result, we believe that we can continue this study to obtain lower MAPE before model deployment; and it will enable us to have more confidence in using these results in business settings (food recommendations, supermarkets/cafes that sell chocolates, etc.)
+In this project, we tackle the regression problem of predicting chocolate ratings from a chocolate database containing information such as `Company Location`and `Company (manufacturer)` as well as ingredient specific features such as `Country of Bean Origin` and `Cocoa Percent`. We trained a number of different models on this problem (DummyRegressor, Ridge, and SVR) and determined that the best performing model was SVR which had a MAPE (Mean Absolute Percentage Error) of 0.08. This is a relatively reasonable result, we believe that we can continue this study to obtain lower MAPE before model deployment; and it will enable us to have more confidence in using these results in business settings (food recommendations, supermarkets/cafes that sell chocolates, etc.)
 
 # Introduction
 
@@ -55,7 +55,7 @@ knitr::include_graphics("../results/company_boxplot.png")
 
 From the above graph, we can see although "Soma" has the highest rating mean and the highest rating median, its error bar is wide, which means that its chocolate rating is various. On the contrary, "Smooth Chocolator" are doing better with a slightly lower mean than "Soma", a narrower error bar than Soma, and the same median as 3.75. Therefore, "Smooth Chocolatro" has stable and high chocolate rating.
 
-Our model performance is given in the below table. The evaluation metric we picked for this project is MAPE (Mean Absolute Percentage Error, the smaller the better). The best performing model is the SVR model with a MAPE score of 0.0798650. Ridge comes next with the MAPE score 0.0822302:
+Our model performance is given in the below table. The evaluation metric we picked for this project is MAPE (Mean Absolute Percentage Error, the smaller the better). The best performing model is the SVR model with a MAPE score of 0.07. Ridge comes next with the MAPE score 0.08:
 
 ```{r load data, include = FALSE}
 result_mape <- read_csv("../results/result_mape.csv", show_col_types = FALSE)
