@@ -28,7 +28,6 @@ dependencies:
   - pip:
     - joblib==1.1.0
     - mglearn
-    - otter-grader
     - psutil>=5.7.2
     - docopt-ng
     - vl-convert-python
