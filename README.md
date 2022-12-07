@@ -103,6 +103,10 @@ Install the dependencies listed in [dependencies](#dependencies), run the comman
     - psutil>=5.7.2
     - vl-convert-python
     - docopt-ng
+
+# Dependency Diagram
+![](doc/Makefile.png "Dependency Diagram")
+
 # License
 The materials here for Chocolate Rating Predictor are licensed under the **Creative Commons Attribution 2.5 Canada License** ([CC BY 2.5 CA](https://creativecommons.org/licenses/by/2.5/ca/)). MIT License
 
