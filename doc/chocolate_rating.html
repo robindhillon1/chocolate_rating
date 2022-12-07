@@ -613,6 +613,8 @@ display: none;
 <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
 <li><a href="#data" id="toc-data">Data</a></li>
 <li><a href="#model" id="toc-model">Model</a></li>
+<li><a href="#scoring-metrics" id="toc-scoring-metrics">Scoring
+metrics</a></li>
 <li><a href="#results-analysis" id="toc-results-analysis">Results &amp;
 Analysis</a></li>
 <li><a href="#future-improvements" id="toc-future-improvements">Future
@@ -630,7 +632,7 @@ as well as ingredient specific features such as
 <code>Country of Bean Origin</code> and <code>Cocoa Percent</code>. We
 trained a number of different models on this problem (DummyRegressor,
 Ridge, and SVR) and determined that the best performing model was SVR
-which had a MAPE (Mean Absolute Percentage Error) of 0.08. This is a
+which had a MAPE (Mean Absolute Percentage Error) of 0.080. This is a
 relatively reasonable result, we believe that we can continue this study
 to obtain lower MAPE before model deployment; and it will enable us to
 have more confidence in using these results in business settings (food
@@ -680,6 +682,20 @@ perform the analysis: docopt <span class="citation">(Keleshev
 pandas <span class="citation">(team 2020)</span>, numpy <span class="citation">(Harris et al. 2020)</span>, knitr <span class="citation">(Xie 2022a)</span>, kableExtra<span class="citation">(Xie 2022b)</span>, and tidyverse<span class="citation">(Wickham et al. 2019)</span>.</p>
 <p>Our entire implementation can be found here: <a href="https://github.com/UBC-MDS/chocolate_rating" class="uri">https://github.com/UBC-MDS/chocolate_rating</a></p>
 </div>
+<div id="scoring-metrics" class="section level1">
+<h1>Scoring metrics</h1>
+<p>We choose <code>MAPE</code> as our scoring metrics compares to
+default <span class="math inline">\(R^2\)</span> and the
+<code>RMSE</code>. The goal of chocolate rating prediction is getting a
+reasonable range of a chocolate’s rating based on its statistics
+information. The default <span class="math inline">\(R^2\)</span> and
+<code>RMSE</code> focusing more on the mean of the difference between
+the prediction and the actual rating. These two methods are more
+sensitive to the outliers that may effect the results to be lack of
+generalization, while <code>MAPE</code> will be more understandable
+since it represents the mean of all absolute percentage errors between
+the predicted and actual values.</p>
+</div>
 <div id="results-analysis" class="section level1">
 <h1>Results &amp; Analysis</h1>
 <p>We performed a series of EDA on the dataset and found that the
@@ -709,13 +725,13 @@ Figure 2. Manufaturer vs.chocolate rating.
 rating mean and the highest rating median, its error bar is wide, which
 means that its chocolate rating is various. On the contrary, “Smooth
 Chocolator” are doing better with a slightly lower mean than “Soma”, a
-narrower error bar than Soma, and the same median as 3.75. Therefore,
+narrower error bar than Soma, and the same median as 3.750. Therefore,
 “Smooth Chocolatro” has stable and high chocolate rating.</p>
 <p>Our model performance is given in the below table. The evaluation
 metric we picked for this project is MAPE (Mean Absolute Percentage
 Error, the smaller the better). The best performing model is the SVR
-model with a MAPE score of 0.07. Ridge comes next with the MAPE score
-0.08:</p>
+model with a MAPE score of 0.080. Ridge comes next with the MAPE score
+0.082:</p>
 <table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Table 1. MAPE Scores of 3 Models
@@ -736,7 +752,7 @@ MAPE Score
 DummyRegressor
 </td>
 <td style="text-align:right;">
-0.1098208
+0.110
 </td>
 </tr>
 <tr>
@@ -744,7 +760,7 @@ DummyRegressor
 SVR
 </td>
 <td style="text-align:right;">
-0.0798650
+0.080
 </td>
 </tr>
 <tr>
@@ -752,7 +768,7 @@ SVR
 Ridge
 </td>
 <td style="text-align:right;">
-0.0822302
+0.082
 </td>
 </tr>
 </tbody>
@@ -800,7 +816,7 @@ coefficients
 raspberry
 </td>
 <td style="text-align:right;">
-0.2702992
+0.270
 </td>
 </tr>
 <tr>
@@ -808,7 +824,7 @@ raspberry
 Company_(Manufacturer)_Fruition
 </td>
 <td style="text-align:right;">
-0.2533775
+0.253
 </td>
 </tr>
 <tr>
@@ -816,7 +832,7 @@ Company_(Manufacturer)_Fruition
 complex
 </td>
 <td style="text-align:right;">
-0.2221796
+0.222
 </td>
 </tr>
 <tr>
@@ -824,7 +840,7 @@ complex
 long
 </td>
 <td style="text-align:right;">
-0.2137749
+0.214
 </td>
 </tr>
 <tr>
@@ -832,7 +848,7 @@ long
 balanced
 </td>
 <td style="text-align:right;">
-0.2088994
+0.209
 </td>
 </tr>
 <tr>
@@ -840,7 +856,7 @@ balanced
 distinct
 </td>
 <td style="text-align:right;">
-0.2067235
+0.207
 </td>
 </tr>
 <tr>
@@ -848,7 +864,7 @@ distinct
 Company_(Manufacturer)_Benoit Nihant
 </td>
 <td style="text-align:right;">
-0.2043494
+0.204
 </td>
 </tr>
 <tr>
@@ -856,7 +872,7 @@ Company_(Manufacturer)_Benoit Nihant
 fig
 </td>
 <td style="text-align:right;">
-0.2010037
+0.201
 </td>
 </tr>
 <tr>
@@ -864,7 +880,7 @@ fig
 Company_(Manufacturer)_Idilio (Felchlin)
 </td>
 <td style="text-align:right;">
-0.2007201
+0.201
 </td>
 </tr>
 <tr>
@@ -872,7 +888,7 @@ Company_(Manufacturer)_Idilio (Felchlin)
 Company_(Manufacturer)_Soma
 </td>
 <td style="text-align:right;">
-0.2002492
+0.200
 </td>
 </tr>
 <tr>
@@ -880,7 +896,7 @@ Company_(Manufacturer)_Soma
 pungent
 </td>
 <td style="text-align:right;">
--0.2459584
+-0.246
 </td>
 </tr>
 <tr>
@@ -888,7 +904,7 @@ pungent
 pastey
 </td>
 <td style="text-align:right;">
--0.2597174
+-0.260
 </td>
 </tr>
 <tr>
@@ -896,7 +912,7 @@ pastey
 burnt
 </td>
 <td style="text-align:right;">
--0.2606714
+-0.261
 </td>
 </tr>
 <tr>
@@ -904,7 +920,7 @@ burnt
 this
 </td>
 <td style="text-align:right;">
--0.2837442
+-0.284
 </td>
 </tr>
 <tr>
@@ -912,7 +928,7 @@ this
 Company_(Manufacturer)_Cote d’ Or (Kraft)
 </td>
 <td style="text-align:right;">
--0.2837442
+-0.284
 </td>
 </tr>
 <tr>
@@ -920,7 +936,7 @@ Company_(Manufacturer)_Cote d’ Or (Kraft)
 bitter
 </td>
 <td style="text-align:right;">
--0.2922228
+-0.292
 </td>
 </tr>
 <tr>
@@ -928,7 +944,7 @@ bitter
 off
 </td>
 <td style="text-align:right;">
--0.2973284
+-0.297
 </td>
 </tr>
 <tr>
@@ -936,7 +952,7 @@ off
 very
 </td>
 <td style="text-align:right;">
--0.3649972
+-0.365
 </td>
 </tr>
 <tr>
@@ -944,7 +960,7 @@ very
 chemical
 </td>
 <td style="text-align:right;">
--0.3692679
+-0.369
 </td>
 </tr>
 <tr>
@@ -952,7 +968,7 @@ chemical
 medicinal
 </td>
 <td style="text-align:right;">
--0.3755049
+-0.376
 </td>
 </tr>
 </tbody>
