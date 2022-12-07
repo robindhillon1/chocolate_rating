@@ -10,7 +10,7 @@ This data science project is created for the DSCI 522 (Data Science Workflows); 
     
 # About 
 
-Chocolate is a treat that is beloved globally. Different types of chocolates and their manufactures are prevalent in different parts of the world. Hence, we decided to explore what features give us the best ratings for these various chocolates. Specifically, do features like `Manfacturer`, `Cocoa Percent` and `Country of Bean Origin` affect or influence the ratings of one chocolate over another? The main goal of this project is to explore this question using different machine learning models to predict chocolate ratings. Therefore, we perform an analysis based on a dataset of 2,588 chocolate ratings compiled by Brady Brelinsk from the Manhattan Chocolate Society. The dataset is available to the public [here](http://flavorsofcacao.com/chocolate_database.html).
+Chocolate is a treat that is beloved globally. Different types of chocolates and their manufacturers are prevalent in different parts of the world. Hence, we decided to explore what features give us the best ratings for these various chocolates. Specifically, do features like `Manfacturer`, `Cocoa Percent` and `Country of Bean Origin` affect or influence the ratings of one chocolate over another? The main goal of this project is to explore this question using different machine learning models to predict chocolate ratings. Therefore, we perform an analysis based on a dataset of 2,588 chocolate ratings compiled by Brady Brelinsk from the Manhattan Chocolate Society. The dataset is available to the public [here](http://flavorsofcacao.com/chocolate_database.html).
 
 Since we have a predictive research question, we separate the dataset into train data and test data (75% and 25%, respectively) to avoid violation of the Golden Rule. Initial exploratory data analysis (EDA) includes investigating the distributions of the aforementioned features as well as features such as the `Ingredients` and `Characteristics` of the chocolates. Plots such as barplots and boxplots are created of these features and saved in the [results](results) folder. The corresponding dataframes are saved as `csv` files in the [results](results) folder as well. As we delve deeper into the analysis, other plot types will most likely be used as well.
 
@@ -52,21 +52,29 @@ If results already exist when `make all` is used, or if the results of the above
 #### 2\. If `make` is not available, then the following steps can be followed: 
 Install the dependencies listed in [dependencies](#dependencies), run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
-`python src/download_data.py --url=http://flavorsofcacao.com/database_w_REF.html --out_file=data/raw/chocolate_raw.csv`
+        
+        python src/download_data.py --url=http://flavorsofcacao.com/database_w_REF.html --out_file=data/raw/chocolate_raw.csv
 - To perform data cleaning, and split raw data file into train set and test set:<br>
-`python src/data_preprocessing.py --in_file=data/raw/chocolate_raw.csv --out_dir=data/processed/`
+        
+        python src/data_preprocessing.py --in_file=data/raw/chocolate_raw.csv --out_dir=data/processed/
 - To generate Exploratory data analysis (EDA) output:<br>
-`python src/rating_eda.py --in_file=data/processed/train.csv --out_dir=results/`
+        
+        python src/rating_eda.py --in_file=data/processed/train.csv --out_dir=results/
 - To train baseline model:<br>
-`python src/model_baseline.py --in_file=data/processed/train.csv --out_dir=results/`
+        
+        python src/model_baseline.py --in_file=data/processed/train.csv --out_dir=results/
 - To train SVR model:<br>
-`python src/model_svr.py --in_file=data/processed/train.csv --out_dir=results/`
+        
+        python src/model_svr.py --in_file=data/processed/train.csv --out_dir=results/
 - To train Ridge model:<br>
-`python src/model_ridge.py --in_file=data/processed/train.csv --out_dir=results/`
+        
+        python src/model_ridge.py --in_file=data/processed/train.csv --out_dir=results/
 - To generate score of the models from test data set:<br>
-`python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --dummy=model_baseline.sav --svr=model_svr.sav --ridge=model_ridge.sav --out_dir=results/`
+        
+        python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --out_dir=results/
 - To generate the final analysis report (run this in an RStudio Terminal):<br>
-`Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"`
+        
+        Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"
 
 
 # Dependencies
@@ -86,14 +94,19 @@ Install the dependencies listed in [dependencies](#dependencies), run the comman
   - pandas-profiling
   - ipywidgets
   - lxml
+  - pandoc
   - pip
   - lightgbm
   - pip:
     - joblib==1.1.0
     - mglearn
     - psutil>=5.7.2
-    - vl_convert
+    - vl-convert-python
     - docopt-ng
+
+# Dependency Diagram
+![](doc/Makefile.png "Dependency Diagram")
+
 # License
 The materials here for Chocolate Rating Predictor are licensed under the **Creative Commons Attribution 2.5 Canada License** ([CC BY 2.5 CA](https://creativecommons.org/licenses/by/2.5/ca/)). MIT License
 
