@@ -1,5 +1,18 @@
 # Contributing to the Chocolate Rating analysis project
 
+## Core Team Members
+
+    - Robin Dhillon
+    - Markus Nam
+    - Eyre Hong
+    - Lisha Gao
+
+### Core Team Contribution
+
+Our core team employs proper branching when contributing to the project, and makes use of branch protection rules when submitting a pull request. Every team member is able to review and accept (or close) these pull requests. Furthermore, we are able to create issues and discussions as it promotes proper team collaboration.
+
+### About
+
 This document outlines how to propose a change to our Chocolate Rating predictor project, and the repo can be found [here](https://github.com/UBC-MDS/chocolate_rating). We look forward to all proposals and contributions to this project! If reporting a bug or requesting features, please open an issue. If you'd like to actively contribute to features and/or bugs, please fork our repo and submit a pull request (PR), which will be reviewed as soon as possible. Please note that all contributors must abide by our code of conduct which can be found below. 
 
 ### Prerequisites
