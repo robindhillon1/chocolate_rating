@@ -72,7 +72,7 @@ Install the dependencies listed in [dependencies](#dependencies), run the comman
 - To generate score of the models from test data set:<br>
         
         python src/model_summary.py --in_file=data/processed/test.csv --model_dir=results/ --out_dir=results/
-- To generate the final analysis report (run this in an RStudio Terminal):<br>
+- To generate the final analysis report:<br>
         
         Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"
 
