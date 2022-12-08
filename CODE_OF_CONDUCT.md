@@ -21,6 +21,6 @@ Examples of unacceptable behavior includes and not limited to:
 -  Usage of sexual, violent, or other inappropriate content in all forms of communications both in personal and virtual settings 
 -  Violating UBC's Student Code of Conduct
 
-### Dealing with Unacceptable Behavior
+### Consequences of Unacceptable Behavior
 
 To protect the integrity of this project, we will adopt a vigilant and proactive mindset towards any form of unacceptable behavior. If any of the contributors are found to violate the Code of Conduct, we ask you to report it to DSCI522 instructor Florencia D'Andrea and/or MDS Co-Directors (Varada Kolhatkar and Rodolfo Lourenzutti).  Any contributor violating the code of conduct in any MDS forum, no matter if it's in the classroom, virtual meetings, or group work will be warned and expected to stop their inappropriate behavior. If they continue to engage in such behavior, we reserve the right to permanently ban them from contributing and engage with the MDS Co-Directors to investigate further and impose appropriate sanctions.
