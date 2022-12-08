@@ -43,3 +43,4 @@ clean:
 	rm -rf data/processed/*
 	rm -rf results/*
 	rm -rf doc/chocolate_rating.html
+	rm -rf doc/chocolate_rating.md
