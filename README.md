@@ -45,10 +45,10 @@ If results already exist when this docker `make all` is used, or if the results 
 Note: If you are using M1 / M2 mac platform, please add the flag `--platform linux/amd64` when running the above `docker run` command.
 i.e.
 
-    docker run --rm -v --platform linux/amd64 /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate all
+    docker run --rm --platform linux/amd64 -v /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate all
 AND
 
-    docker run --rm -v --platform linux/amd64 /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate clean
+    docker run --rm --platform linux/amd64 -v /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate clean
 
 #### 2\. Using Make
 
