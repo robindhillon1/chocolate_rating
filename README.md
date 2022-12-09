@@ -6,7 +6,7 @@
     - Markus Nam
     - Eyre Hong
 
-This data science project is created for the DSCI 522 (Data Science Workflows); a course in the Master of Data Science program at the University of British Columbia.
+This data science project is created for DSCI 522 (Data Science Workflows); a course in the Master of Data Science program at the University of British Columbia.
     
 # About 
 
@@ -28,13 +28,13 @@ Below, we suggest three different ways to run this analysis:
 
 #### 1\. Using Docker
 
-*note - the instructions in this section also depends on running this in a unix shell (e.g., terminal or Git Bash)*
+*Note - the instructions in this section depends on running this in a unix shell (e.g., terminal or Git Bash). Specifically, these commands should be run on `git bash`.*
 
 To replicate the analysis, install [Docker](https://www.docker.com/get-started/). Then clone this GitHub repository and run the following command at the command line/terminal from the root directory of this project to pull the docker image:
 
     docker pull eyrexh/chocolate_rating_docker
 
-Then activate the docker image and run our project by using:
+For **`Mac`** computers with an Intel processor, activate the docker image and run our project by using:
 
     docker run --rm -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate all
 
@@ -50,6 +50,13 @@ AND
 
     docker run --rm --platform linux/amd64 -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate clean
 
+For **`Windows`** computers, use the following command to activate the docker image and run our project:
+
+        docker run --rm -v "/$(pwd)"://home//chocolate eyrexh/chocolate_rating_docker make -C //home//chocolate all
+
+For a clean repository, use the following command:
+
+        docker run --rm -v "/$(pwd)"://home//chocolate eyrexh/chocolate_rating_docker make -C //home//chocolate clean
 #### 2\. Using Make
 
 If you do not having docker, we suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies) by referring to the [Installation](#installation) section. Next, while you are at the the root directory of this project, run the following command at the command line:
