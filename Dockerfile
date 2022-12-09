@@ -9,7 +9,15 @@ RUN apt-get install libcurl4-openssl-dev -y
 RUN apt-get install libssl-dev -y
 RUN apt-get install libxml2-dev libcurl4-openssl-dev libssl-dev libfontconfig1-dev -y
 
-RUN conda install -c conda-forge -y r-base
+RUN Rscript -e "install.packages('tidyverse', repos='https://cran.rstudio.com/')"
+RUN Rscript -e "install.packages('broom', repos='https://cran.rstudio.com/')"
+RUN Rscript -e "install.packages('docopt', repos='https://cran.rstudio.com/')"
+RUN Rscript -e "install.packages('pandoc', repos='https://cran.rstudio.com/')"
+RUN Rscript -e "install.packages('knitr', repos='https://cran.rstudio.com/')"
+RUN Rscript -e "install.packages('kableExtra', repos='https://cran.rstudio.com/')"
+RUN Rscript -e "install.packages('caret', repos='https://cran.rstudio.com/')"
+RUN Rscript -e "install.packages('xfun', repos='https://cran.rstudio.com/')"
+
 RUN conda install -c conda-forge -y altair
 RUN conda install -c conda-forge -y scikit-learn>=1.1.3
 RUN conda install -c conda-forge -y lxml
@@ -21,4 +29,5 @@ RUN pip install psutil --quiet
 RUN pip install docopt-ng --quiet
 RUN pip install vl-convert-python --quiet
 
-RUN Rscript -e "install.packages(c('pandoc', 'knitr', 'kableExtra', 'tidyverse', 'caret', 'xfun'), repos='https://cran.rstudio.com/')"
+ENV PATH="/opt/conda/bin:${PATH}"
+CMD ["/bin/bash"]
