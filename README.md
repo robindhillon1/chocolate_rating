@@ -22,19 +22,6 @@ The workflow of how the data analysis should be run is shown in the flowchart/di
 
 **Figure 1**. Flowchart of analysis
 
-# Installation
-Create a conda environment by running the command below:<br>
-
-    conda env create -f src/env-chocolate.yaml
-
-To activate the environment, please run:
-
-    conda activate chocolate
-
-Install the necessary R packages:<br>
-
-    Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret', 'xfun'), repos='https://cran.rstudio.com/')"
-
 # Usage
 
 Below, we suggest three different ways to run this analysis:
@@ -55,10 +42,17 @@ If results already exist when this docker `make all` is used, or if the results 
 
     docker run --rm -v /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate clean
 
+Note: If you are using M1 / M2 mac platform, please add the flag `--platform linux/amd64` when running the above `docker run` command.
+i.e.
+
+    docker run --rm -v --platform linux/amd64 /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate all
+AND
+
+    docker run --rm -v --platform linux/amd64 /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate clean
 
 #### 2\. Using Make
 
-If you do not having docker, or you are using M1/M2 chips, we suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies). Next, while you are at the the root directory of this project, run the following command at the command line:
+If you do not having docker, we suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies) by referring to the [Installation](#installation) section. Next, while you are at the the root directory of this project, run the following command at the command line:
 
     make all
 
@@ -93,6 +87,18 @@ Install the dependencies listed in [dependencies](#dependencies), run the comman
         
         Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"
 
+# Installation
+Create a conda environment by running the command below:<br>
+
+    conda env create -f src/env-chocolate.yaml
+
+To activate the environment, please run:
+
+    conda activate chocolate
+
+Install the necessary R packages:<br>
+
+    Rscript -e "install.packages(c('knitr', 'kableExtra', 'tidyverse', 'caret', 'xfun'), repos='https://cran.rstudio.com/')"
 
 # Dependencies
   - ipykernel
