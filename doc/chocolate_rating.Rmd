@@ -71,7 +71,7 @@ ridge_coefficients$coefficients <- round(ridge_coefficients$coefficients, digits
 ```
 
 ```{r mape result}
-knitr::kable(result_mape, caption = "Table 1. MAPE Scores of 3 Models") |>
+knitr::kable(result_mape, caption = "Table 1. MAPE Scores of 3 Models") %>%
 kableExtra::kable_styling(full_width = FALSE)
 ```
 
@@ -84,7 +84,7 @@ knitr::include_graphics(c("../results/ridge_predict_vs_true.png", "../results/sv
 It is interesting to note the relationships between the models and the informative features we mentioned above. Here is a table of the coefficient importance for the Ridge model. We can see that `raspberry` and `Company_(Manufacturer)_Fruition` have the biggest positive coefficients, meaning adding these two factors will lead to the largest increase in the chocolate rating. This is consistent with what we found in the EDA as the company Fruition has a large median as well as a wide error bar, which indicates that it might produce some extremely good products. At the bottom, `chemical` and `medicinal` have the most negative coefficients. Having these two features will result in a large decrease in the rating score. This is not surprising as the majority do not like chocolates with these two characteristics:
 
 ```{r ridge coefficients}
-knitr::kable(ridge_coefficients, caption = "Table 2. Ridge Coefficients") |>
+knitr::kable(ridge_coefficients, caption = "Table 2. Ridge Coefficients") %>%
 kableExtra::kable_styling(full_width = FALSE)
 ```
 
