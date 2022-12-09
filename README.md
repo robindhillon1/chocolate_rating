@@ -37,11 +37,28 @@ Install the necessary R packages:<br>
 
 # Usage
 
-Below, we suggest two different ways to run this analysis:
+Below, we suggest three different ways to run this analysis:
 
-#### 1\. Using Make
+#### 1\. Using Docker
 
-We suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies). Next, while you are at the the root directory of this project, run the following command at the command line:
+*note - the instructions in this section also depends on running this in a unix shell (e.g., terminal or Git Bash)*
+
+To replicate the analysis, install [Docker](https://www.docker.com/get-started/). Then clone this GitHub repository and run the following command at the command line/terminal from the root directory of this project:
+
+    docker pull chnam/chocolate-rating-project
+
+This will pull the docker image made for this repository. Then activate the docker image and run our project by using:
+
+    docker run --rm -v /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate all
+
+If results already exist when this docker `make all` is used, or if the results of the above command need to be undone for a clean state of the repository, run the following command at the command line while still being at root directory of this project:
+
+    docker run --rm -v /$(pwd):/home/chocolate chnam/chocolate-rating-project make -C /home/chocolate clean
+
+
+#### 2\. Using Make
+
+If you do not having docker, or you are using M1/M2 chips, we suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies). Next, while you are at the the root directory of this project, run the following command at the command line:
 
     make all
 
@@ -49,7 +66,7 @@ If results already exist when `make all` is used, or if the results of the above
 
     make clean
 
-#### 2\. If `make` is not available, then the following steps can be followed: 
+#### 3\. If `make` is not available, then the following steps can be followed: 
 Install the dependencies listed in [dependencies](#dependencies), run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
         
