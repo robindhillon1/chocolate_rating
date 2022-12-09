@@ -96,7 +96,7 @@ Install the dependencies listed in [dependencies](#dependencies), run the comman
 
 
 # Report
-The final report can be found [here](doc/chocolate_rating.html) in the [doc](doc) foldier.
+The final report can be found [here](doc/chocolate_rating.html) in the [doc](doc) folder.
 # Installation
 Create a conda environment by running the command below:<br>
 
