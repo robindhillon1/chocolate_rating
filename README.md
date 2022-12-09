@@ -36,19 +36,19 @@ To replicate the analysis, install [Docker](https://www.docker.com/get-started/)
 
 Then activate the docker image and run our project by using:
 
-    docker run --rm -v /$(pwd):/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate all
+    docker run --rm -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate all
 
 If results already exist when this docker `make all` is used, or if the results of the above command need to be undone for a clean state of the repository, run the following command at the command line while still being at root directory of this project:
 
-    docker run --rm -v /$(pwd):/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate clean
+    docker run --rm -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate clean
 
 Note: If you are using M1 / M2 mac platform, please add the flag `--platform linux/amd64` when running the above `docker run` command.
 i.e.
 
-    docker run --rm --platform linux/amd64 -v /$(pwd):/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate all
+    docker run --rm --platform linux/amd64 -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate all
 AND
 
-    docker run --rm --platform linux/amd64 -v /$(pwd):/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate clean
+    docker run --rm --platform linux/amd64 -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate clean
 
 #### 2\. Using Make
 
