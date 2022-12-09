@@ -52,11 +52,11 @@ AND
 
 For **`Windows`** computers, use the following command to activate the docker image and run our project:
 
-        docker run --rm -v "/$(pwd)"://home//chocolate eyrexh/chocolate_rating_docker make -C //home//chocolate all
+    docker run --rm -v "/$(pwd)"://home//chocolate eyrexh/chocolate_rating_docker make -C //home//chocolate all
 
 For a clean repository, use the following command:
 
-        docker run --rm -v "/$(pwd)"://home//chocolate eyrexh/chocolate_rating_docker make -C //home//chocolate clean
+    docker run --rm -v "/$(pwd)"://home//chocolate eyrexh/chocolate_rating_docker make -C //home//chocolate clean
 ### 2\. Using Make
 
 If Docker is unavailable, we suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies) by referring to the [Installation](#installation) section. Next, while you are at the the root directory of this project, run the following command at the command line:
