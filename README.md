@@ -26,7 +26,7 @@ The workflow of how the data analysis should be run is shown in the flowchart/di
 
 Below, we suggest three different ways to run this analysis:
 
-#### 1\. Using Docker
+### 1\. Using Docker
 
 *Note - the instructions in this section depends on running this in a unix shell (e.g., terminal or Git Bash). Specifically, these commands should be run on `git bash`.*
 
@@ -38,7 +38,7 @@ For **`Mac`** computers with an Intel processor, activate the docker image and r
 
     docker run --rm -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate all
 
-If results already exist when this docker `make all` is used, or if the results of the above command need to be undone for a clean state of the repository, run the following command at the command line while still being at root directory of this project:
+If results already exist, or if the results of the above command need to be undone for a clean state of the repository, run the following command at the command line while still being at root directory of this project:
 
     docker run --rm -v "/$(pwd)":/home/chocolate eyrexh/chocolate_rating_docker make -C /home/chocolate clean
 
@@ -57,9 +57,9 @@ For **`Windows`** computers, use the following command to activate the docker im
 For a clean repository, use the following command:
 
         docker run --rm -v "/$(pwd)"://home//chocolate eyrexh/chocolate_rating_docker make -C //home//chocolate clean
-#### 2\. Using Make
+### 2\. Using Make
 
-If you do not having docker, we suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies) by referring to the [Installation](#installation) section. Next, while you are at the the root directory of this project, run the following command at the command line:
+If Docker is unavailable, we suggest using this method to replicate this analysis. First, please clone this repository and install the [dependencies](#dependencies) by referring to the [Installation](#installation) section. Next, while you are at the the root directory of this project, run the following command at the command line:
 
     make all
 
@@ -67,7 +67,7 @@ If results already exist when `make all` is used, or if the results of the above
 
     make clean
 
-#### 3\. If `make` is not available, then the following steps can be followed: 
+### 3\. If `make` is not available, then the following steps can be followed: 
 Install the dependencies listed in [dependencies](#dependencies), run the command shown below from the root directory of this project to download the raw data, and then run the EDA file on JupyterLab.
 - To download the data file:<br>
         
@@ -94,6 +94,9 @@ Install the dependencies listed in [dependencies](#dependencies), run the comman
         
         Rscript -e "rmarkdown::render('doc/chocolate_rating.Rmd')"
 
+
+# Report
+The final report can be found [here](doc/chocolate_rating.html) in the [doc](doc) foldier.
 # Installation
 Create a conda environment by running the command below:<br>
 
