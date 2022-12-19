@@ -30,7 +30,7 @@ Below, we suggest three different ways to run this analysis:
 
 *Note - the instructions in this section depends on running this in a unix shell (e.g., terminal or Git Bash). Specifically, these commands should be run on `git bash`.*
 
-To replicate the analysis, install [Docker](https://www.docker.com/get-started/). Then clone this GitHub repository and run the following command at the command line/terminal from the root directory of this project to pull the docker image:
+To replicate the analysis, please install and run [Docker](https://www.docker.com/get-started/). Then clone this GitHub repository and run the following command at the command line/terminal from the root directory of this project to pull the docker image:
 
     docker pull eyrexh/chocolate_rating_docker
 
