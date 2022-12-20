@@ -32,7 +32,7 @@ Below, we suggest three different ways to run this analysis:
 
 To replicate the analysis, install [Docker](https://www.docker.com/get-started/). Then clone this GitHub repository and run the following command at the command line/terminal from the root directory of this project to pull the docker image:
 
-    docker pull eyrexh/chocolate_rating_docker
+    docker pull eyrexh/chocolate_rating_docker:v0.12.0
 
 For **`Mac`** computers with an Intel processor, activate the docker image and run our project by using:
 
